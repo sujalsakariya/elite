@@ -1,4 +1,7 @@
 @media (max-width: 1200px) {
+    .home-main {
+        width: 100%;
+    }
 
     /*  PROJECTS  start */
     .project {
@@ -158,6 +161,30 @@
         margin-bottom: 50px;
     }
 
+    /* footer start */
+    .footer-bar {
+        flex-direction: column;
+    }
+
+    .footer-logo {
+        width: 20%;
+    }
+
+    .footer-menu ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    .footer-right ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    .footer-end {
+        flex-direction: column;
+    }
+
+    /* footer end */
 }
 
 @media (min-width: 769px) and (max-width: 960px) {
@@ -293,8 +320,19 @@
     }
 
     /* hide */
+    /* footer start */
+    .footer .ul-main {
+        display: none !important;
+    }
 
+    /* footer end */
+    .slider-bg {
+        width: 100%;
+    }
 
+    .slider {
+        flex-direction: column;
+    }
 }
 
 @media (min-width: 577px) and (max-width:720px) {
@@ -310,6 +348,15 @@
         flex-direction: column;
     }
 
+    .heading-name h1 {
+        margin: 0px;
+        font-size: 50px;
+    }
+
+    .heading-name h2 {
+        font-size: 28px;
+    }
+
 
 }
 
@@ -322,7 +369,10 @@
 
 
 
-
+    /* footer end */
+    .w-70 .card .card-title {
+        font-size: 13px;
+    }
 
 }
 
@@ -333,6 +383,10 @@
 }
 
 @media (min-width: 375px) and (max-width:425px) {
+    .home-main {
+        width: 100%;
+    }
+
     .bg-pro {
         width: 100%;
     }
@@ -348,9 +402,24 @@
     .home-main {
         width: 100%;
     }
+
+    /* footer start */
+    .footer {
+        width: 100%;
+    }
+
+    .end-border {
+        width: 100%;
+    }
+
+    /* footer end */
 }
 
 @media (min-width: 280px) and (max-width:375px) {
+    .home-main {
+        width: 100%;
+    }
+
     .home-main .navbar {
         width: 100%;
     }
@@ -362,4 +431,28 @@
     .home-main {
         width: 100%;
     }
+
+    /* footer start */
+    .footer {
+        width: 100%;
+    }
+
+    .end-border {
+        width: 100%;
+    }
+
+    .footer-logo {
+        width: 30%;
+    }
+
+    /* footer end */
+    .heading-name h1 {
+        margin: 0px;
+        font-size: 20px;
+    }
+
+    .heading-name h2 {
+        font-size: 40px;
+    }
+
 }

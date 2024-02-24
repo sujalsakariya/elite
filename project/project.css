@@ -270,7 +270,14 @@
 
 /* PRIVATE HOMES end */
 
+/*  contact start */
+.contact {}
 
+.question {
+    justify-content: center !important;
+}
+
+/*  contact end */
 
 
 /* footer start */
@@ -386,6 +393,10 @@
 
 .copy-end p {
     margin: 0;
+}
+
+.footer-end i {
+    color: rgb(56, 56, 56);
 }
 
 /* footer end */
