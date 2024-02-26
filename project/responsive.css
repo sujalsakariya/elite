@@ -96,6 +96,8 @@
         font-weight: 500;
         margin-bottom: 50px;
     }
+
+
 }
 
 @media (max-width: 992px) {
@@ -185,6 +187,12 @@
     }
 
     /* footer end */
+    /* contact */
+    .question {
+        width: 45% !important;
+    }
+
+    /* contact end */
 }
 
 @media (min-width: 769px) and (max-width: 960px) {
@@ -333,6 +341,13 @@
     .slider {
         flex-direction: column;
     }
+
+    /* contact */
+    .question {
+        width: 65% !important;
+    }
+
+    /* contact end */
 }
 
 @media (min-width: 577px) and (max-width:720px) {
@@ -348,12 +363,12 @@
         flex-direction: column;
     }
 
-    .heading-name h1 {
+    .heading-name h2 {
         margin: 0px;
         font-size: 50px;
     }
 
-    .heading-name h2 {
+    .heading-name h1 {
         font-size: 28px;
     }
 
@@ -380,6 +395,17 @@
     .bg-pro {
         width: 100%;
     }
+
+    /* contact */
+    .question {
+        width: 55% !important;
+    }
+
+    .question h1 {
+        font-size: 40px;
+    }
+
+    /* contact end */
 }
 
 @media (min-width: 375px) and (max-width:425px) {
@@ -413,6 +439,16 @@
     }
 
     /* footer end */
+    /* contact */
+    .question {
+        width: 65% !important;
+    }
+
+    .question h1 {
+        font-size: 40px;
+    }
+
+    /* contact end */
 }
 
 @media (min-width: 280px) and (max-width:375px) {
@@ -455,4 +491,14 @@
         font-size: 40px;
     }
 
+    /* contact */
+    .question {
+        width: 85% !important;
+    }
+
+    .question h1 {
+        font-size: 40px;
+    }
+
+    /* contact end */
 }

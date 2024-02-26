@@ -7,11 +7,15 @@
     transition: 0.3s;
 }
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /* home star */
 /* home-top */
 .home-main {
     width: 100%;
-    background: url(img/main.jpg);
+    background: url(img/main.png);
     background-position: center center;
     background-size: cover;
     height: 650px;
@@ -162,155 +166,12 @@
     color: white;
     font-size: 45px;
     text-align: center;
-    font-weight: 200;
+    font-weight: 100;
     box-sizing: border-box;
     margin: 0 85px;
 }
 
 /* home end */
-/*  PROJECTS  start */
-.project {
-    padding: 50px 70px;
-}
-
-.w-100 {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    column-gap: 50px;
-}
-
-.w-100 .main-card {
-    width: 25%;
-    display: flex;
-    justify-content: center;
-}
-
-.w-100 .card .card-title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 13px;
-
-}
-
-.w-100 .card {
-
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 3px 3px 5px 1px #76767626;
-    border: 0;
-}
-
-.w-100 .card a {
-    text-decoration: none;
-    color: black;
-}
-
-.w-100 .card img {
-    height: 350px;
-}
-
-.main-card:hover {
-    transform: scale(1.05);
-}
-
-/*  PROJECTS  End */
-
-/* PRIVATE HOMES Start */
-
-.private {
-    margin: 0 70px;
-    padding: 20px 0;
-    box-sizing: border-box;
-}
-
-.w-65 {
-    width: 65%;
-}
-
-.w-65 a img {
-    width: 100%;
-}
-
-.w-35 {
-    width: 35%;
-    background-color: #f9f8f8;
-    padding: 30px;
-
-}
-
-.w-35 p {
-    color: #7A7A7A;
-    font-size: 17px;
-
-}
-
-.w-35 h2 {
-    color: #000000;
-    font-size: 35px;
-    font-family: "ivymode", sans-serif;
-    font-weight: 300;
-    margin-bottom: 110px;
-}
-
-.w-35 .pro {
-    color: #000000;
-    font-size: 15px;
-    color: #7A7A7A;
-
-
-}
-
-
-
-
-
-
-/* PRIVATE HOMES end */
-
-/*  contact start */
-.contact {
-    flex-wrap: wrap;
-    align-content: center;
-    padding: 60px;
-}
-
-.question {
-    width: 35% !important;
-    justify-content: center !important;
-    text-align: center;
-}
-
-.question h1 {
-    font-family: "ivymode", sans-serif;
-    font-size: 60px;
-    font-weight: 300;
-}
-
-.contact-us {
-    justify-content: center !important;
-    margin-top: 60px;
-}
-
-.contact-us a {
-    background-color: #000000;
-    color: white !important;
-    padding: 5px 80px;
-    border-radius: 5px;
-}
-
-.contact-w {
-    width: 50%;
-    flex-wrap: wrap;
-}
-
-.contact-detail {
-    margin-top: 70px;
-}
-
-/*  contact end */
 
 
 /* footer start */
@@ -433,3 +294,15 @@
 }
 
 /* footer end */
+
+
+
+
+/* contact */
+.isolate {
+    background-image: url(img/6.png);
+    background-repeat: repeat-x;
+    z-index: 1;
+}
+
+/* contact end*/
