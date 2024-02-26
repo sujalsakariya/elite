@@ -11,6 +11,7 @@
     width: 50%;
 }
 .gallery .w-50 h1 {
+    font-family: "ivymode", sans-serif;
     
 }
 
@@ -19,12 +20,17 @@
 
 
 /* home-top */
-.home-main {
+.home-main{
     width: 100%;
-    background: url(img/nav\ \(16\).jpg) ;
-    background-position: center center;
-    background-size: cover;
+    height: 850px;
+    position: relative;    
+}
+
+.all-main{
+    position: absolute;
+    top: 0;
     height: 650px;
+    width: 100%;
 }
 
 /* social - start*/
@@ -156,18 +162,18 @@
 /* navbar end*/
 .heading-name {
     width: 100%;
-    height: 400px;
+    height: 700px;
 }
 
 .heading-name h2 {
-    font-size: 35px;
+    font-size: 75px;
     font-family: "ivymode", sans-serif;
     margin-bottom: 0;
 }
 
 .heading-name h1 {
     font-family: "ivymode", sans-serif;
-    font-size: 75px;
+    font-size: 45px;
     text-align: center;
     font-weight: 400;
     box-sizing: border-box;
