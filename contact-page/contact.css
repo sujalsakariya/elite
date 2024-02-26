@@ -127,6 +127,7 @@
 
 .nav-right .none-a {
     /* display: none; */
+    display: block;
 }
 
 .btn-check:focus+.btn,
@@ -154,6 +155,15 @@
 
 .nav-right li i:hover {
     color: rgb(215, 161, 27);
+}
+
+.offcanvas-header {
+    justify-content: flex-start !important;
+    padding-top: 50px !important;
+}
+
+.nav-tabs .nav-link {
+    display: none;
 }
 
 /* navbar end*/
