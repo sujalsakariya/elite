@@ -126,7 +126,16 @@
 }
 
 .nav-right .none-a {
-    display: none;
+    /* display: none; */
+}
+
+.btn-check:focus+.btn,
+.btn:focus {
+    box-shadow: none !important;
+}
+
+.nav-right .nav-link:hover {
+    border-color: transparent !important;
 }
 
 .navbar .nav-tabs {
