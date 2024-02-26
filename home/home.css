@@ -14,7 +14,7 @@
 /* home-top */
 .home-main {
     width: 100%;
-    background: url(img/nav\ \(16\).jpg);
+    background: url(img/nav\ \(16\).jpg) ;
     background-position: center center;
     background-size: cover;
     height: 650px;

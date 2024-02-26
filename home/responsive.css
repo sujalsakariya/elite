@@ -66,13 +66,13 @@
     .w-30 p {
         font-size: 56px;
     }
-
-    /*  PROJECTS  End */
-
     .heading-name h1 {
         margin: 0 30px;
         font-size: 66px;
     }
+    /*  PROJECTS  End */
+
+    
 
     /* Designer  start */
 
@@ -275,6 +275,10 @@
     .nav-right {
         width: 20%;
     }
+    .heading-name h1 {
+        margin: 0px;
+        font-size: 56px;
+    }
 
     .project {
         margin: 0 10px;
@@ -282,10 +286,7 @@
         flex-direction: column;
     }
 
-    .heading-name h1 {
-        margin: 0px;
-        font-size: 56px;
-    }
+    
 
     .w-30 {
         width: 100%;
