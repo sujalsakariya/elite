@@ -7,18 +7,13 @@
     transition: 0.3s;
 }
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 /* home star */
 /* home-top */
 .home-main {
     width: 100%;
-    background: url(img/main.png);
     background-position: center center;
     background-size: cover;
-    height: 650px;
+    height: 100px;
 }
 
 /* social - start*/
@@ -74,7 +69,6 @@
 
 .nav-left {
     width: 50%;
-    padding-left: 30px;
 }
 
 .nav-img {
@@ -130,99 +124,6 @@
     display: none;
 }
 
-.nav-item {
-    align-items: center;
-}
-
-/* search-slide-login */
-.modal-backdrop.show {
-    display: none;
-}
-
-.modal {
-    background-color: #000000a3 !important;
-}
-
-.modal-content {
-    margin-top: 300px;
-}
-
-.modal-content {
-    background-color: transparent;
-    border: none;
-}
-
-.modal-header {
-    font-size: 35px;
-    color: #f9f9f9;
-}
-
-.modal-content input {
-    background-color: transparent;
-    display: flex;
-    justify-content: center;
-}
-
-/* slide menu */
-.btn-check:focus+.btn,
-.btn:focus {
-    box-shadow: none !important;
-}
-
-.nav-right .nav-link:hover {
-    border-color: transparent !important;
-}
-
-.offcanvas-header {
-    justify-content: flex-start !important;
-    padding-top: 50px !important;
-}
-
-.btn-main {
-    justify-content: space-between;
-    padding: 20px 15px;
-}
-
-.offcanvas-header {
-    padding: 0 !important;
-    width: 10%;
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 45px !important;
-    align-content: flex-start !important;
-}
-
-.offcanvas-header i {
-    color: black !important;
-}
-
-.offcanvas-header .btn-close {
-    padding: 0 !important;
-}
-
-.offcanvas-body ul {
-    margin: 0 !important;
-}
-
-.offcanvas-body li a {
-    color: black !important;
-}
-
-.offcanvas-body hr {
-    margin: 5px 0 !important;
-    color: black !important;
-}
-
-.offcanvas i {
-    color: black !important;
-}
-
-/* slide menu end*/
-
-
-/* search-slide-login end */
-
-
 .navbar .nav-tabs {
     border: 0;
 }
@@ -239,10 +140,6 @@
 
 .nav-right li i:hover {
     color: rgb(215, 161, 27);
-}
-
-.nav-right .nav-img {
-    margin-left: 15px;
 }
 
 /* navbar end*/
@@ -264,12 +161,59 @@
     color: white;
     font-size: 45px;
     text-align: center;
-    font-weight: 100;
+    font-weight: 200;
     box-sizing: border-box;
     margin: 0 85px;
 }
 
 /* home end */
+
+
+
+
+/* PRIVATE HOMES end */
+
+/*  contact start */
+.contact {
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 60px;
+}
+
+.question {
+    width: 35% !important;
+    justify-content: center !important;
+    text-align: center;
+}
+
+.question h1 {
+    font-family: "ivymode", sans-serif;
+    font-size: 60px;
+    font-weight: 300;
+}
+
+.contact-us {
+    justify-content: center !important;
+    margin-top: 60px;
+}
+
+.contact-us a {
+    background-color: #000000;
+    color: white !important;
+    padding: 5px 80px;
+    border-radius: 5px;
+}
+
+.contact-w {
+    width: 50%;
+    flex-wrap: wrap;
+}
+
+.contact-detail {
+    margin-top: 70px;
+}
+
+/*  contact end */
 
 
 /* footer start */
@@ -395,12 +339,25 @@
 
 
 
-
-/* contact */
-.isolate {
-    background-image: url(img/6.png);
-    background-repeat: repeat-x;
-    z-index: 1;
+/* cart */
+.cart {
+    width: 100%;
+    padding: 0 50px;
 }
 
-/* contact end*/
+.empty i {
+    margin-right: 10px;
+}
+
+.return {
+    margin-top: 50px;
+}
+
+.return a {
+    color: #515151;
+    background-color: #e9e6ed;
+    padding: 5px 10px;
+    font-size: 22px;
+}
+
+/* cart end */

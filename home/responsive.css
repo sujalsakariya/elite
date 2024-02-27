@@ -35,6 +35,10 @@
 @media (min-width: 993px) and (max-width: 1200px) {
 
     /* home-top */
+    .navbar {
+        width: 100% !important;
+    }
+
     .nav-left {
         width: 70%;
     }
@@ -43,7 +47,12 @@
         width: 30%;
     }
 
-    /*  PROJECTS  start */
+    .heading-name h1 {
+        margin: 0px;
+        font-size: 56px;
+    }
+
+    /* home-top end*/
     .project {
         margin: 0 30px;
         padding: 50px 0;
@@ -66,13 +75,15 @@
     .w-30 p {
         font-size: 56px;
     }
+
     .heading-name h1 {
         margin: 0 30px;
         font-size: 66px;
     }
+
     /*  PROJECTS  End */
 
-    
+
 
     /* Designer  start */
 
@@ -137,6 +148,34 @@
 }
 
 @media (max-width: 992px) {
+
+    /* home-top */
+    .home-main {
+        width: 100% !important;
+    }
+
+    .navbar {
+        width: 100% !important;
+    }
+
+    .nav-left {
+        width: 70%;
+    }
+
+    .nav-right {
+        width: 30%;
+    }
+
+    .heading-name h1 {
+        margin: 0px;
+        font-size: 56px;
+    }
+
+    /* home-top end*/
+
+    /* home-top end*/
+
+
 
     /* home-top */
     .nav-left {
@@ -262,12 +301,24 @@
     }
 
     /* footer end */
-
+    .slider-bg {
+        width: 100%;
+        overflow: hidden;
+    }
 }
 
 @media (min-width: 769px) and (max-width: 960px) {
 
     /* home-top */
+    .home-main {
+        width: 100% !important;
+        box-sizing: border-box !important;
+    }
+
+    .navbar {
+        width: 100% !important;
+    }
+
     .nav-left {
         width: 80%;
     }
@@ -275,6 +326,7 @@
     .nav-right {
         width: 20%;
     }
+
     .heading-name h1 {
         margin: 0px;
         font-size: 56px;
@@ -286,7 +338,7 @@
         flex-direction: column;
     }
 
-    
+
 
     .w-30 {
         width: 100%;
@@ -349,6 +401,10 @@
 
     /* Designer  end */
 
+    .slider-bg {
+        width: 100%;
+        overflow: hidden;
+    }
 
     /* footer start */
 

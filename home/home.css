@@ -11,6 +11,11 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    background-color: #333 !important;
+    color: #999 !important;
+}
+
 /* home-top */
 .home-main {
     width: 100%;

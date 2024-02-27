@@ -74,12 +74,6 @@
     }
 
     /* home-top end*/
-    /* slide */
-    .offcanvas-body li {
-        display: block !important;
-    }
-
-    /* slide end */
 
 }
 
@@ -132,12 +126,12 @@
     /* home end */
 
 
-    /* slide */
-    .offcanvas-body li {
-        display: block;
+    /* footer start */
+    .footer .ul-main {
+        display: none !important;
     }
 
-    /* slide end */
+    /* footer end */
 }
 
 @media (min-width: 577px) and (max-width:720px) {
@@ -153,12 +147,6 @@
     }
 
     /* home end */
-    /* slide */
-    .offcanvas-body li {
-        display: block;
-    }
-
-    /* slide end */
 }
 
 @media (min-width: 425px) and (max-width:576px) {
@@ -170,13 +158,6 @@
     .heading-name h1 {
         font-size: 28px;
     }
-
-    /* slide */
-    .offcanvas-body li {
-        display: block;
-    }
-
-    /* slide end */
 }
 
 @media (min-width: 375px) and (max-width:425px) {
@@ -212,12 +193,6 @@
     }
 
     /* footer end */
-    /* slide */
-    .offcanvas-body li {
-        display: block;
-    }
-
-    /* slide end */
 }
 
 @media (min-width: 280px) and (max-width:375px) {
@@ -257,11 +232,4 @@
     }
 
     /* footer end */
-
-    /* slide */
-    .offcanvas-body li {
-        display: block;
-    }
-
-    /* slide end */
 }

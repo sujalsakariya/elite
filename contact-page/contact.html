@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!-- css -->
-    <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="animation.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/all.min.css">
     <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="responsive.css">
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -56,48 +56,65 @@
             <div class="nav-right d-flex flex-row-reverse">
                 <ul class="nav nav-tabs justify-content-center align-items-center">
                     <li class="nav-item d-flex">
-                        <a href=""><i class="fa-solid fa-magnifying-glass none"></i></a>
-                        <a href=""><i class="fa-regular fa-user none"></i></i></a>
-                        <a href=""><i class="fa-solid fa-bag-shopping none"></i></i></a>
-                    </li>
-                    <li class="nav-item dropdown none-a">
-                        <a class="nav-link" data-bs-toggle="dropdown" href="" role="button" aria-expanded="false">
-                            <button class="btn" type="button" data-bs-toggle="offcanvas"
-                                data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
-                                <i class="fa-solid fa-bars"></i>gh
-                            </button>
-                            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
-                                aria-labelledby="offcanvasExampleLabel">
-                                <div class="offcanvas-header flex-start">
-                                    <div class="nav-img">
-                                        <a href="http://127.0.0.1:5501/home/home.html" class=" d-flex flex-start w-100">
-                                            <img src="../home/img/logo1-removebg-preview__1_-removebg-preview.png"
-                                                alt="">
-                                        </a>
-                                    </div>
-                                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
-                                        aria-label="Close"></button>
-                                </div>
-                                <div class="offcanvas-body">
-                                    <div>
-                                        Some text as placeholder. In real life you can have the elements you have
-                                        chosen. Like, text, images,
-                                        lists, etc.
-                                    </div>
-                                    <div class="dropdown mt-3">
-                                        <button class="btn btn-secondary dropdown-toggle" type="button"
-                                            id="dropdownMenuButton" data-bs-toggle="dropdown">
-                                            Dropdown button
-                                        </button>
-                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                        </ul>
-                                    </div>
+
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <i class="fa-solid fa-magnifying-glass none"></i>
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <input type="search" placeholder="Search..." class="modal-header">
                                 </div>
                             </div>
-                        </a>
+                        </div>
+
+                        <a href=""><i class="fa-regular fa-user none"></i></a>
+                        <a href=""><i class="fa-solid fa-bag-shopping none"></i></a>
+                    </li>
+                    <li class="nav-item dropdown none-a nav-link" data-bs-toggle="" href="" role="button"
+                        aria-expanded="false">
+                        <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+                            aria-controls="offcanvasExample">
+                            <i class="fa-solid fa-bars"></i>
+                        </button>
+                        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                            aria-labelledby="offcanvasExampleLabel">
+                            <div class="btn-main d-flex">
+                                <div class="nav-img">
+                                    <a href="http://127.0.0.1:5501/contact-page/contact.html" class=""><img
+                                            src="../home/img/logo1-removebg-preview__1_-removebg-preview.png"
+                                            alt=""></a>
+                                </div>
+                                <div class="offcanvas-header">
+                                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                        aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+                                </div>
+                            </div>
+                            <div class="offcanvas-body">
+                                <ul>
+                                    <li><a href="">HOME</a></li>
+                                    <hr>
+                                    <li><a href="">THE GALLERY</a></li>
+                                    <hr>
+                                    <li><a href="">PROJECTS</a></li>
+                                    <hr>
+                                    <li><a href="">THE DESIGNER</a></li>
+                                    <hr>
+                                    <li><a href="">E-SHOP</a></li>
+                                </ul>
+                            </div>
+                            <div class="app d-flex justify-content-end">
+                                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                <a href=""><i class="fa-brands fa-pinterest"></i></a>
+                                <a href=""><i class="fa-brands fa-square-youtube"></i></a>
+                            </div>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -284,6 +301,9 @@
     </div>
     <div class="end-border"></div>
     <!-- footer end -->
+
+
+
 
 
     <script src="../js/bootstrap.bundle.js"></script>
