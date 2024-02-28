@@ -44,11 +44,12 @@ a {
 .gallery-fluid {
     background-color: #333;
 }
-.gallery-con{
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
+
+.gallery-con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .card-title {
@@ -369,7 +370,9 @@ a {
 .ul-main {
     width: 100%;
 }
-.title-end h6{
+
+.title-end h6 {
     color: #b19777;
 }
+
 /* footer end */

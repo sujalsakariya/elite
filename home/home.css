@@ -11,8 +11,15 @@
 @tailwind components;
 @tailwind utilities;
 
+<<<<<<< HEAD
+body {
+    background-color: #333 !important;
+}
+=======
 
+>>>>>>> 8ddf2d643ce73ca89f59b021edf8a0f5ea4ff8b4
 
+/* home start */
 /* home-top */
 .home-main {
     width: 100%;
@@ -39,7 +46,11 @@
 
 .social i {
     font-size: 18px;
+<<<<<<< HEAD
+    color: rgb(255, 255, 255);
+=======
     color: #999 !important;
+>>>>>>> 8ddf2d643ce73ca89f59b021edf8a0f5ea4ff8b4
     transition: 0.3s;
 }
 
@@ -56,7 +67,11 @@
 }
 
 .language a {
+<<<<<<< HEAD
+    color: rgb(255, 255, 255);
+=======
     color: #999 !important;
+>>>>>>> 8ddf2d643ce73ca89f59b021edf8a0f5ea4ff8b4
     font-family: "Inter", sans-serif;
     text-decoration: none;
     font-size: 14px;
@@ -73,11 +88,16 @@
     position: fixed;
     z-index: 1;
     top: 0px;
+<<<<<<< HEAD
+    background-color: rgba(0, 0, 0, 0.756);
+=======
     background-color: #222222ef !important;
+>>>>>>> 8ddf2d643ce73ca89f59b021edf8a0f5ea4ff8b4
 }
 
 .nav-left {
     width: 50%;
+    padding-left: 30px;
 }
 
 .nav-img {
@@ -101,7 +121,11 @@
 
 .nav-left li a {
     text-decoration: none;
+<<<<<<< HEAD
+    color: rgb(255, 255, 255);
+=======
     color: #999 !important;
+>>>>>>> 8ddf2d643ce73ca89f59b021edf8a0f5ea4ff8b4
     font-weight: bold;
     font-size: 14px;
     font-family: "Inter", sans-serif;
@@ -133,6 +157,103 @@
     display: none;
 }
 
+.nav-item {
+    align-items: center;
+}
+
+/* search-slide-login */
+.modal-backdrop.show {
+    display: none;
+}
+
+.modal {
+    background-color: #000000a3 !important;
+}
+
+.modal-content {
+    margin-top: 300px;
+}
+
+.modal-content {
+    background-color: transparent;
+    border: none !important;
+}
+
+.modal-header {
+    font-size: 35px;
+    color: #f9f9f9;
+}
+
+.modal-content input {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    border: none !important;
+    border-bottom: 1px solid #dee2e6 !important;
+}
+
+/* slide menu */
+.btn-check:focus+.btn,
+.btn:focus {
+    box-shadow: none !important;
+}
+
+.nav-right .nav-link:hover {
+    border-color: transparent !important;
+}
+
+.offcanvas-header {
+    justify-content: flex-start !important;
+    padding-top: 50px !important;
+}
+
+.btn-main {
+    justify-content: space-between;
+    padding: 20px 15px;
+}
+
+.offcanvas-header {
+    padding: 0 !important;
+    width: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 45px !important;
+    align-content: flex-start !important;
+}
+
+.offcanvas-header i {
+    color: black !important;
+}
+
+.offcanvas-header .btn-close {
+    padding: 0 !important;
+}
+
+.offcanvas-body ul {
+    margin: 0 !important;
+}
+
+.offcanvas-body li a {
+    color: black !important;
+}
+
+.offcanvas-body hr {
+    margin: 5px 0 !important;
+    color: black !important;
+}
+
+.offcanvas i {
+    color: black !important;
+}
+
+/* slide menu end*/
+.contact .mx-auto h2 {
+    font-family: "ivymode", sans-serif;
+}
+
+/* search-slide-login end */
+
+
 .navbar .nav-tabs {
     border: 0;
 }
@@ -143,7 +264,11 @@
 
 .nav-right li i {
     font-size: 18px;
+<<<<<<< HEAD
+    color: rgb(255, 255, 255);
+=======
     color: #999 !important;
+>>>>>>> 8ddf2d643ce73ca89f59b021edf8a0f5ea4ff8b4
     transition: 0.5s;
 }
 
@@ -151,27 +276,33 @@
     color: rgb(215, 161, 27);
 }
 
+.nav-right .nav-img {
+    margin-left: 15px;
+}
+
 /* navbar end*/
 .heading-name {
     width: 100%;
     height: 400px;
+    margin-top: 100px;
 }
 
 .heading-name h2 {
-    color: black;
-    font-size: 35px;
+    font-size: 78px;
     font-family: "ivymode", sans-serif;
     margin-bottom: 0;
 }
 
 .heading-name h1 {
-    font-family: "ivymode", sans-serif !important;
-    font-size: 75px;
+    font-family: "ivymode", sans-serif;
+    font-size: 45px;
     text-align: center;
-    font-weight: 400;
+    font-weight: 100;
     box-sizing: border-box;
     margin: 0 85px;
 }
+
+/* home end */
 
 /*  PROJECTS  start */
 .project {
@@ -359,7 +490,11 @@
 .designer {
     margin: 0 70px;
     padding: 50px 0;
+<<<<<<< HEAD
+    color: #dee2e6 !important;
+=======
    
+>>>>>>> 8ddf2d643ce73ca89f59b021edf8a0f5ea4ff8b4
 }
 
 .w-40 {
