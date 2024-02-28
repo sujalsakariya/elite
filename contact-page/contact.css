@@ -218,7 +218,9 @@
 }
 
 /* slide menu end*/
-
+.contact h2 {
+    font-family: "Inter", sans-serif !important;
+}
 
 /* search-slide-login end */
 
@@ -398,8 +400,8 @@
 
 /* contact */
 .isolate {
-    background-image: url(img/6.png);
-    background-repeat: repeat-x;
+    background-image: url(img/bg.webp);
+    background-repeat: repeat;
     z-index: 1;
 }
 
