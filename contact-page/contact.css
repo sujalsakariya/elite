@@ -218,8 +218,8 @@
 }
 
 /* slide menu end*/
-.contact h2 {
-    font-family: "Inter", sans-serif !important;
+.contact .mx-auto h2 {
+    font-family: "ivymode", sans-serif;
 }
 
 /* search-slide-login end */

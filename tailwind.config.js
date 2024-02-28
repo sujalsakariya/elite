@@ -6,6 +6,9 @@ module.exports = {
   },
   plugins: [],
 }
+
+
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./contact-page/**/*.{html,js}"],
@@ -14,11 +17,22 @@ module.exports = {
   },
   plugins: [],
 }
-// tailwind.config.js
+
+
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-  // ...
-  plugins: [
-    // ...
-    require('@tailwindcss/aspect-ratio'),
-  ],
+  content: ["./signup-page/**/*.{html,js}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./login-page/**/*.{html,js}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
 }

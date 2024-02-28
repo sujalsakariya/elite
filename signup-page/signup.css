@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+    color: aliceblue !important;
+}
+
+section {
+    position: relative;
+}
+
+section .p-top {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.main {
+    display: flex !important;
+    justify-content: space-between;
+}
+
+.main a {
+    display: flex !important;
+    align-items: center;
+
+}
+
+i {
+    font-size: 20px;
+}
+
+img {
+    width: 50% !important;
+}
+
+.w-full button {
+    background-color: #C19A5B;
+}
+
+.bg-tr {
+    background-color: rgba(0, 0, 0, 0.447) !important;
+}
