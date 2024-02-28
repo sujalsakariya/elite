@@ -15,8 +15,13 @@
     background-position: center center;
     background-size: cover;
     height: 650px;
+    background-color: #222222b5;
+    
 }
-
+.bg-z{
+    background-color: #22222286;
+    height: 650px;
+}
 /* social - start*/
 .social {
     padding: 5px 30px;
@@ -31,7 +36,7 @@
 
 .social i {
     font-size: 18px;
-    color: rgb(255, 255, 255);
+    color: #999;
     transition: 0.3s;
 }
 
@@ -48,7 +53,7 @@
 }
 
 .language a {
-    color: rgb(255, 255, 255);
+    color: #999;
     font-family: "Inter", sans-serif;
     text-decoration: none;
     font-size: 14px;
@@ -65,7 +70,7 @@
     position: fixed;
     z-index: 1;
     top: 0px;
-    background-color: rgba(0, 0, 0, 0.756);
+    background-color: #222222f8;
 }
 
 .nav-left {
@@ -93,7 +98,7 @@
 
 .nav-left li a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: #999;
     font-weight: bold;
     font-size: 14px;
     font-family: "Inter", sans-serif;
@@ -135,7 +140,7 @@
 
 .nav-right li i {
     font-size: 18px;
-    color: rgb(255, 255, 255);
+    color: #999;
     transition: 0.5s;
 }
 
@@ -153,13 +158,13 @@
 .heading-name h2 {
     font-size: 78px;
     font-family: "ivymode", sans-serif;
-    color: white;
+    color: #b8b8b8;
     margin-bottom: 0;
 }
 
 .heading-name h1 {
     font-family: "adobe-handwriting-ernie", sans-serif;
-    color: white;
+    color: #b8b8b8;
     font-size: 45px;
     text-align: center;
     font-weight: 200;
@@ -199,13 +204,14 @@
 
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 3px 3px 5px 1px #76767626;
+    box-shadow: 3px 3px 5px 1px #00000067;
     border: 0;
+    background-color: #222;
 }
 
 .w-100 .card a {
     text-decoration: none;
-    color: black;
+    color: #999;
 }
 
 .w-100 .card img {
@@ -219,7 +225,9 @@
 /*  PROJECTS  End */
 
 /* PRIVATE HOMES Start */
-
+.bg-pro{
+    background-color: #333;
+}
 .private {
     margin: 0 70px;
     padding: 20px 0;
@@ -236,7 +244,7 @@
 
 .w-35 {
     width: 35%;
-    background-color: #f9f8f8;
+    background-color: #222;
     padding: 30px;
 
 }
@@ -248,7 +256,7 @@
 }
 
 .w-35 h2 {
-    color: #000000;
+    color: #7A7A7A;
     font-size: 35px;
     font-family: "ivymode", sans-serif;
     font-weight: 300;
@@ -256,7 +264,6 @@
 }
 
 .w-35 .pro {
-    color: #000000;
     font-size: 15px;
     color: #7A7A7A;
 
@@ -287,6 +294,7 @@
     font-family: "ivymode", sans-serif;
     font-size: 60px;
     font-weight: 300;
+    color: #999;
 }
 
 .contact-us {
@@ -295,8 +303,8 @@
 }
 
 .contact-us a {
-    background-color: #000000;
-    color: white !important;
+    background-color: #222;
+    color: #333 !important;
     padding: 5px 80px;
     border-radius: 5px;
 }
@@ -308,6 +316,7 @@
 
 .contact-detail {
     margin-top: 70px;
+    color: #999;
 }
 
 /*  contact end */
@@ -316,7 +325,7 @@
 /* footer start */
 .footer {
     padding: 50px 0 20px 0;
-    background-color: #f9f9f9;
+    background-color: #222 !important;
 }
 
 .footer-bar {
@@ -342,15 +351,15 @@
 }
 
 .footer-bar a {
-    color: black;
-    text-decoration: none;
+    color: #999 !important;
+    text-decoration: none !important;
     font-family: "Inter", sans-serif;
     font-weight: 500;
     font-size: 14px;
 }
 
 .footer-bar a:hover {
-    color: #C19A5B;
+    color: #C19A5B !important;
 }
 
 .footer-bar li:hover {
@@ -358,7 +367,11 @@
 }
 
 .footer-menu ul li:first-of-type a {
-    color: #C19A5B;
+    color: #C19A5B !important;
+}
+
+.footer a {
+    text-decoration: none !important;
 }
 
 .footer-logo img:hover {
@@ -373,11 +386,16 @@
 
 .contact a {
     text-decoration: none;
-    color: black;
+    color: #999 !important;
+}
+
+.contact span {
+    text-decoration: none;
+    color: #999 !important;
 }
 
 .contact a:hover {
-    color: #C19A5B;
+    color: #b19777 !important;
     transform: scale(1.01);
 }
 
@@ -404,9 +422,19 @@
 }
 
 .copyright a {
-    color: black;
+    color: #999 !important;
     margin-left: 15px;
     font-weight: 400;
+}
+
+.copyright p {
+    margin: 0 !important;
+    color: #999 !important;
+}
+
+.copyright span {
+    margin: 0 !important;
+    color: #999 !important;
 }
 
 .copy-end span {
@@ -423,13 +451,7 @@
 .ul-main {
     width: 100%;
 }
-
-.copy-end p {
-    margin: 0;
+.title-end h6{
+    color: #b19777;
 }
-
-.footer-end i {
-    color: rgb(56, 56, 56);
-}
-
 /* footer end */
