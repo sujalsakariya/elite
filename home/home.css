@@ -11,6 +11,13 @@
 @tailwind components;
 @tailwind utilities;
 
+<<<<<<< HEAD
+=======
+body {
+    background-color: #333 !important;
+}
+
+>>>>>>> d502afb99ca02f42dacea2836c0c816bce5c63bd
 
 /* home start */
 /* home-top */
@@ -21,7 +28,10 @@
     background-size: cover;
     height: 650px;
 }
-
+.bg-z{
+    background-color: #22222286;
+    height: 650px;
+}
 /* social - start*/
 .social {
     padding: 5px 30px;
@@ -36,6 +46,10 @@
 
 .social i {
     font-size: 18px;
+<<<<<<< HEAD
+=======
+    color: rgb(255, 255, 255);
+>>>>>>> d502afb99ca02f42dacea2836c0c816bce5c63bd
     color: #999 !important;
     transition: 0.3s;
 }
@@ -53,6 +67,10 @@
 }
 
 .language a {
+<<<<<<< HEAD
+=======
+    color: rgb(255, 255, 255);
+>>>>>>> d502afb99ca02f42dacea2836c0c816bce5c63bd
     color: #999 !important;
     font-family: "Inter", sans-serif;
     text-decoration: none;
@@ -99,6 +117,10 @@
 
 .nav-left li a {
     text-decoration: none;
+<<<<<<< HEAD
+=======
+    color: rgb(255, 255, 255);
+>>>>>>> d502afb99ca02f42dacea2836c0c816bce5c63bd
     color: #999 !important;
     font-weight: bold;
     font-size: 14px;
@@ -238,6 +260,10 @@
 
 .nav-right li i {
     font-size: 18px;
+<<<<<<< HEAD
+=======
+    color: rgb(255, 255, 255);
+>>>>>>> d502afb99ca02f42dacea2836c0c816bce5c63bd
     color: #999 !important;
     transition: 0.5s;
 }
@@ -418,7 +444,7 @@
 .w-70 .card {
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: -1px 0px 13px 7px #5959599c;
+    box-shadow: -1px 0px 10px 2px #0000009c;
     border: 0;
     transition: 0.3s;
 }
@@ -460,7 +486,12 @@
 .designer {
     margin: 0 70px;
     padding: 50px 0;
+<<<<<<< HEAD
 
+=======
+    color: #dee2e6 !important;
+   
+>>>>>>> d502afb99ca02f42dacea2836c0c816bce5c63bd
 }
 
 .w-40 {
@@ -613,6 +644,7 @@
     height: 650px;
     position: relative;
     color: #222;
+    z-index: 1000;
 }
 
 .gallrey-title p {
