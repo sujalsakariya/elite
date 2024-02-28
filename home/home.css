@@ -11,13 +11,6 @@
 @tailwind components;
 @tailwind utilities;
 
-<<<<<<< HEAD
-=======
-body {
-    background-color: #333 !important;
-}
-
->>>>>>> d502afb99ca02f42dacea2836c0c816bce5c63bd
 
 /* home start */
 /* home-top */
@@ -28,10 +21,7 @@ body {
     background-size: cover;
     height: 650px;
 }
-.bg-z{
-    background-color: #22222286;
-    height: 650px;
-}
+
 /* social - start*/
 .social {
     padding: 5px 30px;
@@ -46,10 +36,6 @@ body {
 
 .social i {
     font-size: 18px;
-<<<<<<< HEAD
-=======
-    color: rgb(255, 255, 255);
->>>>>>> d502afb99ca02f42dacea2836c0c816bce5c63bd
     color: #999 !important;
     transition: 0.3s;
 }
@@ -67,10 +53,6 @@ body {
 }
 
 .language a {
-<<<<<<< HEAD
-=======
-    color: rgb(255, 255, 255);
->>>>>>> d502afb99ca02f42dacea2836c0c816bce5c63bd
     color: #999 !important;
     font-family: "Inter", sans-serif;
     text-decoration: none;
@@ -88,7 +70,7 @@ body {
     position: fixed;
     z-index: 1;
     top: 0px;
-    background-color: #222222ef !important;
+    background-color: #222222a0 !important;
 }
 
 .nav-left {
@@ -117,10 +99,6 @@ body {
 
 .nav-left li a {
     text-decoration: none;
-<<<<<<< HEAD
-=======
-    color: rgb(255, 255, 255);
->>>>>>> d502afb99ca02f42dacea2836c0c816bce5c63bd
     color: #999 !important;
     font-weight: bold;
     font-size: 14px;
@@ -260,10 +238,6 @@ body {
 
 .nav-right li i {
     font-size: 18px;
-<<<<<<< HEAD
-=======
-    color: rgb(255, 255, 255);
->>>>>>> d502afb99ca02f42dacea2836c0c816bce5c63bd
     color: #999 !important;
     transition: 0.5s;
 }
@@ -486,12 +460,10 @@ body {
 .designer {
     margin: 0 70px;
     padding: 50px 0;
-<<<<<<< HEAD
+}
 
-=======
-    color: #dee2e6 !important;
-   
->>>>>>> d502afb99ca02f42dacea2836c0c816bce5c63bd
+.bg-a {
+    background-color: #444;
 }
 
 .w-40 {
