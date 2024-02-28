@@ -11,13 +11,6 @@
 @tailwind components;
 @tailwind utilities;
 
-<<<<<<< HEAD
-body {
-    background-color: #333 !important;
-}
-=======
-
->>>>>>> 8ddf2d643ce73ca89f59b021edf8a0f5ea4ff8b4
 
 /* home start */
 /* home-top */
@@ -43,11 +36,7 @@ body {
 
 .social i {
     font-size: 18px;
-<<<<<<< HEAD
-    color: rgb(255, 255, 255);
-=======
     color: #999 !important;
->>>>>>> 8ddf2d643ce73ca89f59b021edf8a0f5ea4ff8b4
     transition: 0.3s;
 }
 
@@ -64,11 +53,7 @@ body {
 }
 
 .language a {
-<<<<<<< HEAD
-    color: rgb(255, 255, 255);
-=======
     color: #999 !important;
->>>>>>> 8ddf2d643ce73ca89f59b021edf8a0f5ea4ff8b4
     font-family: "Inter", sans-serif;
     text-decoration: none;
     font-size: 14px;
@@ -85,11 +70,7 @@ body {
     position: fixed;
     z-index: 1;
     top: 0px;
-<<<<<<< HEAD
-    background-color: rgba(0, 0, 0, 0.756);
-=======
     background-color: #222222ef !important;
->>>>>>> 8ddf2d643ce73ca89f59b021edf8a0f5ea4ff8b4
 }
 
 .nav-left {
@@ -118,11 +99,7 @@ body {
 
 .nav-left li a {
     text-decoration: none;
-<<<<<<< HEAD
-    color: rgb(255, 255, 255);
-=======
     color: #999 !important;
->>>>>>> 8ddf2d643ce73ca89f59b021edf8a0f5ea4ff8b4
     font-weight: bold;
     font-size: 14px;
     font-family: "Inter", sans-serif;
@@ -261,11 +238,7 @@ body {
 
 .nav-right li i {
     font-size: 18px;
-<<<<<<< HEAD
-    color: rgb(255, 255, 255);
-=======
     color: #999 !important;
->>>>>>> 8ddf2d643ce73ca89f59b021edf8a0f5ea4ff8b4
     transition: 0.5s;
 }
 
@@ -487,11 +460,7 @@ body {
 .designer {
     margin: 0 70px;
     padding: 50px 0;
-<<<<<<< HEAD
-    color: #dee2e6 !important;
-=======
-   
->>>>>>> 8ddf2d643ce73ca89f59b021edf8a0f5ea4ff8b4
+
 }
 
 .w-40 {
@@ -817,7 +786,9 @@ body {
 .ul-main {
     width: 100%;
 }
-.title-end h6{
+
+.title-end h6 {
     color: #b19777;
 }
+
 /* footer end */
