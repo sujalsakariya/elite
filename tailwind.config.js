@@ -36,3 +36,26 @@ module.exports = {
   },
   plugins: [],
 }
+
+
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./private/**/*.{html,js}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./e-shop-page/**/*.{html,js}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [
+    require('@tailwindcss/aspect-ratio'),
+  ],
+}
+
+// tailwind.config.js
