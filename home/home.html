@@ -34,18 +34,6 @@
   <div class="home-main">
     <div class="bg-z">
       <!-- social app -->
-      <div class="social d-flex">
-        <div class="app d-flex justify-content-end">
-          <a href=""><i class="fa-brands fa-linkedin"></i></a>
-          <a href=""><i class="fa-brands fa-facebook"></i></a>
-          <a href=""><i class="fa-brands fa-instagram"></i></a>
-          <a href=""><i class="fa-brands fa-pinterest"></i></a>
-          <a href=""><i class="fa-brands fa-square-youtube"></i></a>
-        </div>
-        <div class="language d-flex justify-content-end">
-          <a href="">EN</a>
-        </div>
-      </div>
       <!-- social app  end-->
 
       <!-- navbar -->
@@ -65,8 +53,28 @@
           </ul>
         </div>
         <div class="nav-right d-flex flex-row-reverse">
+          <div class="social d-flex">
+            <div class="app d-flex justify-content-end">
+              <ul>
+                <li>
+                  <a href="#">
+                    <i class="fab fa-facebook-f icon"></i> </a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-twitter icon"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-linkedin-in icon"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-google-plus-g icon"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
           <ul class="nav nav-tabs justify-content-center align-items-center">
             <li class="nav-item d-flex">
+              <a href=""><i class="fa-solid fa-magnifying-glass none"></i></a>
               <a href="http://127.0.0.1:5501/login-page/log.html"><i class="fa-regular fa-user none"></i></i></a>
               <a href="http://127.0.0.1:5501/cart-page/cart.html"><i class="fa-solid fa-bag-shopping none"></i></i></a>
             </li>
@@ -78,99 +86,99 @@
         </div>
       </div>
     </div>
-    <!-- social app  end-->
+  </div>
+  <!-- social app  end-->
 
-    <!-- navbar -->
-    <div class="navbar d-flex flex-row justify-content-center">
-      <div class="nav-left">
-        <ul class="d-flex flex-row justify-content-evenly">
-          <div class="nav-img ">
-            <a href="http://127.0.0.1:5501/home/home.html" class=""><img
-                src="img/logo1-removebg-preview__1_-removebg-preview.png" alt=""></a>
+  <!-- navbar -->
+  <div class="navbar d-flex flex-row justify-content-center">
+    <div class="nav-left">
+      <ul class="d-flex flex-row justify-content-evenly">
+        <div class="nav-img ">
+          <a href="http://127.0.0.1:5501/home/home.html" class=""><img
+              src="img/logo1-removebg-preview__1_-removebg-preview.png" alt=""></a>
+        </div>
+        <li><a href="" class="ul-a d-flex align-items-center first-child">HOME</i></a></li>
+        <li><a href="http://127.0.0.1:5501/GALLERY/gallery.html" class="ul-a d-flex align-items-center">THE
+            GALLERY</i></a></li>
+        <li><a href="../project/project.html" class="ul-a d-flex align-items-center">PROJECTS</i></a></li>
+        <li><a href="" class="ul-a d-flex align-items-center">THE DESIGNER</i></a></li>
+        <li><a href="" class="ul-a d-flex align-items-center">E-SHOP</a></li>
+      </ul>
+    </div>
+    <!-- new -->
+    <div class="nav-right d-flex flex-row-reverse">
+      <ul class="nav nav-tabs justify-content-center align-items-center">
+        <li class="nav-item d-flex">
+
+          <!-- Button trigger modal -->
+          <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <i class="fa-solid fa-magnifying-glass none"></i>
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <input type="search" placeholder="Search..." class="modal-header">
+              </div>
+            </div>
           </div>
-          <li><a href="" class="ul-a d-flex align-items-center first-child">HOME</i></a></li>
-          <li><a href="http://127.0.0.1:5501/GALLERY/gallery.html" class="ul-a d-flex align-items-center">THE
-              GALLERY</i></a></li>
-          <li><a href="../project/project.html" class="ul-a d-flex align-items-center">PROJECTS</i></a></li>
-          <li><a href="" class="ul-a d-flex align-items-center">THE DESIGNER</i></a></li>
-          <li><a href="" class="ul-a d-flex align-items-center">E-SHOP</a></li>
-        </ul>
-      </div>
-      <!-- new -->
-      <div class="nav-right d-flex flex-row-reverse">
-        <ul class="nav nav-tabs justify-content-center align-items-center">
-          <li class="nav-item d-flex">
 
-            <!-- Button trigger modal -->
-            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-              <i class="fa-solid fa-magnifying-glass none"></i>
-            </button>
-
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-              aria-hidden="true">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <input type="search" placeholder="Search..." class="modal-header">
-                </div>
+          <a href="http://127.0.0.1:5501/login-page/log.html"><i class="fa-regular fa-user none"></i></a>
+          <a href="http://127.0.0.1:5501/cart-page/cart.html"><i class="fa-solid fa-bag-shopping none"></i></a>
+        </li>
+        <li class="nav-item dropdown none-a nav-link" data-bs-toggle="" href="" role="button" aria-expanded="false">
+          <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+            aria-controls="offcanvasExample">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+            aria-labelledby="offcanvasExampleLabel">
+            <div class="btn-main d-flex">
+              <div class="nav-img">
+                <a href="http://127.0.0.1:5501/contact-page/contact.html" class=""><img
+                    src="../home/img/logo1-removebg-preview__1_-removebg-preview.png" alt=""></a>
+              </div>
+              <div class="offcanvas-header">
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"><i
+                    class="fa-solid fa-xmark"></i></button>
               </div>
             </div>
-
-            <a href="http://127.0.0.1:5501/login-page/log.html"><i class="fa-regular fa-user none"></i></a>
-            <a href="http://127.0.0.1:5501/cart-page/cart.html"><i class="fa-solid fa-bag-shopping none"></i></a>
-          </li>
-          <li class="nav-item dropdown none-a nav-link" data-bs-toggle="" href="" role="button" aria-expanded="false">
-            <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
-              aria-controls="offcanvasExample">
-              <i class="fa-solid fa-bars"></i>
-            </button>
-            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
-              aria-labelledby="offcanvasExampleLabel">
-              <div class="btn-main d-flex">
-                <div class="nav-img">
-                  <a href="http://127.0.0.1:5501/contact-page/contact.html" class=""><img
-                      src="../home/img/logo1-removebg-preview__1_-removebg-preview.png" alt=""></a>
-                </div>
-                <div class="offcanvas-header">
-                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"><i
-                      class="fa-solid fa-xmark"></i></button>
-                </div>
-              </div>
-              <div class="offcanvas-body">
-                <ul>
-                  <li><a href="">HOME</a></li>
-                  <hr>
-                  <li><a href="">THE GALLERY</a></li>
-                  <hr>
-                  <li><a href="">PROJECTS</a></li>
-                  <hr>
-                  <li><a href="">THE DESIGNER</a></li>
-                  <hr>
-                  <li><a href="">E-SHOP</a></li>
-                </ul>
-              </div>
-              <div class="app d-flex justify-content-end">
-                <a href=""><i class="fa-brands fa-linkedin"></i></a>
-                <a href=""><i class="fa-brands fa-facebook"></i></a>
-                <a href=""><i class="fa-brands fa-instagram"></i></a>
-                <a href=""><i class="fa-brands fa-pinterest"></i></a>
-                <a href=""><i class="fa-brands fa-square-youtube"></i></a>
-              </div>
+            <div class="offcanvas-body">
+              <ul>
+                <li><a href="">HOME</a></li>
+                <hr>
+                <li><a href="">THE GALLERY</a></li>
+                <hr>
+                <li><a href="">PROJECTS</a></li>
+                <hr>
+                <li><a href="">THE DESIGNER</a></li>
+                <hr>
+                <li><a href="">E-SHOP</a></li>
+              </ul>
             </div>
-          </li>
-        </ul>
-      </div>
-      <!-- new end -->
+            <div class="app d-flex justify-content-end">
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-pinterest"></i></a>
+              <a href=""><i class="fa-brands fa-square-youtube"></i></a>
+            </div>
+          </div>
+        </li>
+      </ul>
     </div>
-    <div
-      class="heading-name d-flex flex-column justify-content-center align-items-center align-content-center container">
-      <h2 class="tracking-in-contract-bck">ELITE DECOR</h2>
-      <div class="head-h1 d-flex">
-        <h1 class="d-flex align-content-center align-items-center justify-content-center tracking-in-expand-fwd">
-          INTERIOR DESIGN STUDIO & ART
-          GALLERY</h1>
-      </div>
+    <!-- new end -->
+  </div>
+  <div class="heading-name d-flex flex-column justify-content-center align-items-center align-content-center container">
+    <h2 class="tracking-in-contract-bck">ELITE DECOR</h2>
+    <div class="head-h1 d-flex">
+      <h1 class="d-flex align-content-center align-items-center justify-content-center tracking-in-expand-fwd">
+        INTERIOR DESIGN STUDIO & ART
+        GALLERY</h1>
     </div>
+  </div>
   </div>
   <!-- navbar end-->
   <!-- home-head end-->
