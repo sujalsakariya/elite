@@ -66,13 +66,25 @@ a {
 
 /* gallery end*/
 
-
-
 /* social icon */
+.social {
+    padding: 0 !important;
+    z-index: 999;
+}
+
+.btn {
+    padding-right: 5px !important;
+}
+
+.nav-right li i {
+    font-size: 16px !important;
+}
+
 .app ul {
     display: flex;
     position: absolute;
     top: 50%;
+    right: 15px;
     transform: translate(-50%, -50%);
 }
 
@@ -81,12 +93,12 @@ a {
 }
 
 .app ul li a {
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     background-color: #fff;
     text-align: center;
-    line-height: 30px;
-    font-size: 18px;
+    line-height: 28px;
+    font-size: 10px;
     margin: 0 10px;
     display: block;
     border-radius: 50%;
@@ -142,11 +154,22 @@ a {
 
 /* social icon end*/
 
+/* home star */
 /* home-top */
 .home-main {
     width: 100%;
+    background-position: center center;
+    background-size: cover;
     height: auto;
+}
+
+
+/* social - start*/
+.social {
+    padding: 5px 30px;
     position: relative;
+    top: 0;
+    z-index: 999;
 }
 
 .all-main {
@@ -156,8 +179,6 @@ a {
     width: 100%;
 }
 
-/* social - start*/
-
 .app {
     width: 92%;
     column-gap: 20px;
@@ -165,12 +186,12 @@ a {
 
 .social i {
     font-size: 18px;
-    color: #999;
+    color: rgb(255, 255, 255);
     transition: 0.3s;
 }
 
 .social a:hover i {
-    color: #C19A5B;
+    color: rgb(215, 161, 27);
 }
 
 .social a:hover {
@@ -182,7 +203,7 @@ a {
 }
 
 .language a {
-    color: #999;
+    color: rgb(255, 255, 255);
     font-family: "Inter", sans-serif;
     text-decoration: none;
     font-size: 14px;
@@ -195,16 +216,15 @@ a {
 .home-main .navbar {
     width: 100%;
     padding: 0;
-    height: 100px;
     position: fixed;
-    z-index: 1;
     top: 0px;
-    color: white;
-    background-color: #222222f6;
+    background-color: rgba(0, 0, 0, 0.756);
+    height: 100px;
 }
 
 .nav-left {
     width: 50%;
+    padding-left: 30px;
 }
 
 .nav-img {
@@ -228,7 +248,7 @@ a {
 
 .nav-left li a {
     text-decoration: none;
-    color: #ffffff;
+    color: rgb(255, 255, 255);
     font-weight: bold;
     font-size: 14px;
     font-family: "Inter", sans-serif;
@@ -241,11 +261,11 @@ a {
 }
 
 .nav-left li a:hover {
-    border-bottom: 0.1em solid #b19777;
+    border-bottom: 0.1em solid #C19A5B;
 }
 
 .first-child {
-    border-bottom: 0.1em solid #b19777;
+    border-bottom: 0.1em solid #C19A5B;
 }
 
 .nav-right {
@@ -260,6 +280,110 @@ a {
     display: none;
 }
 
+.nav-item {
+    align-items: center;
+}
+
+/* search-slide-login */
+.modal-backdrop.show {
+    display: none;
+}
+
+.modal {
+    background-color: #000000a3 !important;
+}
+
+.modal-content {
+    border: none !important;
+    margin-top: 300px;
+}
+
+.modal-content {
+    background-color: transparent;
+    border: none;
+}
+
+.modal-header {
+    font-size: 35px;
+    color: #f9f9f9;
+}
+
+.modal-content input {
+    background-color: transparent;
+    display: flex;
+    border-color: transparent;
+    border-bottom: 1px solid #dee2e6;
+    justify-content: center;
+    color: white !important;
+}
+
+.modal-content {
+    background-color: transparent !important;
+    border: none;
+}
+
+/* slide menu */
+.btn-check:focus+.btn,
+.btn:focus {
+    box-shadow: none !important;
+}
+
+.nav-right .nav-link:hover {
+    border-color: transparent !important;
+}
+
+.offcanvas-header {
+    justify-content: flex-start !important;
+    padding-top: 50px !important;
+}
+
+.btn-main {
+    justify-content: space-between;
+    padding: 20px 15px;
+}
+
+.offcanvas-header {
+    padding: 0 !important;
+    width: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 45px !important;
+    align-content: flex-start !important;
+}
+
+.offcanvas-header i {
+    color: black !important;
+}
+
+.offcanvas-header .btn-close {
+    padding: 0 !important;
+}
+
+.offcanvas-body ul {
+    margin: 0 !important;
+}
+
+.offcanvas-body li a {
+    color: black !important;
+}
+
+.offcanvas-body hr {
+    margin: 5px 0 !important;
+    color: black !important;
+}
+
+.offcanvas i {
+    color: black !important;
+}
+
+/* slide menu end*/
+.contact .mx-auto h2 {
+    font-family: "ivymode", sans-serif;
+}
+
+/* search-slide-login end */
+
+
 .navbar .nav-tabs {
     border: 0;
 }
@@ -270,12 +394,20 @@ a {
 
 .nav-right li i {
     font-size: 18px;
-    color: #ffffff;
+    color: rgb(255, 255, 255);
     transition: 0.5s;
 }
 
 .nav-right li i:hover {
-    color: #b19777;
+    color: rgb(215, 161, 27);
+}
+
+.nav-right .nav-img {
+    margin-left: 15px;
+}
+
+.nav-left ul {
+    padding-left: 0 !important;
 }
 
 /* navbar end*/
@@ -300,15 +432,6 @@ a {
     margin: 0 85px;
     color: black;
 }
-
-
-
-
-
-
-
-
-
 
 
 /* footer start */

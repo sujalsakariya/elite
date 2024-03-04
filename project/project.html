@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../css/all.min.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="animation.css">
+    <link rel="icon" href="../home/img/logo1-removebg-preview__1_-removebg-preview.png">
     <link rel="stylesheet" href="responsive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,21 +22,6 @@
     <!-- home-head -->
     <div class="home-main">
         <div class="bg-z">
-            <!-- social app -->
-            <div class="social d-flex container">
-                <div class="app d-flex justify-content-end">
-                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
-                    <a href=""><i class="fa-brands fa-facebook"></i></a>
-                    <a href=""><i class="fa-brands fa-instagram"></i></a>
-                    <a href=""><i class="fa-brands fa-pinterest"></i></a>
-                    <a href=""><i class="fa-brands fa-square-youtube"></i></a>
-                </div>
-                <div class="language d-flex justify-content-end">
-                    <a href="">EN</a>
-                </div>
-            </div>
-            <!-- social app  end-->
-
             <!-- navbar -->
             <div class="navbar d-flex flex-row justify-content-center">
                 <div class="nav-left">
@@ -51,233 +37,300 @@
                         <li><a href="" class="ul-a d-flex align-items-center">E-SHOP</a></li>
                     </ul>
                 </div>
+                <!-- new -->
                 <div class="nav-right d-flex flex-row-reverse">
+                    <div class="social d-flex">
+                        <div class="app d-flex justify-content-end">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <i class="fab fa-facebook-f icon"></i> </a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fab fa-twitter icon"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fab fa-linkedin-in icon"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fab fa-google-plus-g icon"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                     <ul class="nav nav-tabs justify-content-center align-items-center">
                         <li class="nav-item d-flex">
-                            <a href=""><i class="fa-solid fa-magnifying-glass none"></i></a>
-                            <a href=""><i class="fa-regular fa-user none"></i></i></a>
-                            <a href=""><i class="fa-solid fa-bag-shopping none"></i></i></a>
+
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                <i class="fa-solid fa-magnifying-glass none"></i>
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <input type="search" placeholder="Search..." class="modal-header">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <a href=""><i class="fa-regular fa-user none"></i></a>
+                            <a href=""><i class="fa-solid fa-bag-shopping none"></i></a>
                         </li>
-                        <li class="nav-item dropdown none-a">
-                            <a class="nav-link" data-bs-toggle="dropdown" href="" role="button" aria-expanded="false"><i
-                                    class="fa-solid fa-bars"></i></a>
+                        <li class="nav-item dropdown none-a nav-link" data-bs-toggle="" href="" role="button"
+                            aria-expanded="false">
+                            <button class="btn" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                                <i class="fa-solid fa-bars"></i>
+                            </button>
+                            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                                aria-labelledby="offcanvasExampleLabel">
+                                <div class="btn-main d-flex">
+                                    <div class="nav-img">
+                                        <a href="http://127.0.0.1:5501/contact-page/contact.html" class=""><img
+                                                src="../../home/img/logo1-removebg-preview__1_-removebg-preview.png"
+                                                alt=""></a>
+                                    </div>
+                                    <div class="offcanvas-header">
+                                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                            aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+                                    </div>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <ul>
+                                        <li><a href="">HOME</a></li>
+                                        <hr>
+                                        <li><a href="">THE GALLERY</a></li>
+                                        <hr>
+                                        <li><a href="">PROJECTS</a></li>
+                                        <hr>
+                                        <li><a href="">THE DESIGNER</a></li>
+                                        <hr>
+                                        <li><a href="">E-SHOP</a></li>
+                                    </ul>
+                                </div>
+                                <div class="app d-flex justify-content-end">
+                                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                    <a href=""><i class="fa-brands fa-pinterest"></i></a>
+                                    <a href=""><i class="fa-brands fa-square-youtube"></i></a>
+                                </div>
+                            </div>
                         </li>
                     </ul>
                 </div>
-            </div>
-            <div
-                class="heading-name d-flex flex-column justify-content-center align-items-center align-content-center container">
-                <h2 class="tracking-in-expand-fwd-top">PROJECTS</h2>
-                <div class="head-h1 d-flex">
-                    <h1
-                        class="d-flex align-content-center align-items-center justify-content-center tracking-in-expand-fwd">
-                        What we do</h1>
-                </div>
+                <!-- new end -->
             </div>
         </div>
-    </div>
-    <!-- navbar end-->
-    <!-- home-head end-->
+        <!-- navbar end-->
+        <!-- home-head end-->
 
 
-    <!-- PROJECTS  start-->
+        <!-- PROJECTS  start-->
 
-    <div class="container-fluid bg-pro">
-        <div class="container d-flex flex-column">
-            <div class="project d-flex">
-                <div class="w-100">
-                    <div class="main-card">
-                        <div class="card" style="width: 17rem;">
-                            <a href="">
-                                <img src="../img/img1.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">PRIVATE HOMES</h5>
-                                </div>
-                            </a>
+        <div class="container-fluid bg-pro">
+            <div class="container d-flex flex-column">
+                <div class="project d-flex">
+                    <div class="w-100">
+                        <div class="main-card">
+                            <div class="card" style="width: 17rem;">
+                                <a href="private/private.html">
+                                    <img src="../img/img1.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">PRIVATE HOMES</h5>
+                                    </div>
+                                </a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="main-card">
-                        <div class="card" style="width: 17rem;">
-                            <a href="">
-                                <img src="../img/img2.jpg" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">RETAILS & PALACES</h5>
-                                </div>
-                            </a>
+                        <div class="main-card">
+                            <div class="card" style="width: 17rem;">
+                                <a href="">
+                                    <img src="../img/img2.jpg" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">RETAILS & PALACES</h5>
+                                    </div>
+                                </a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="main-card">
-                        <div class="card" style="width: 17rem;">
-                            <a href="">
-                                <img src="../img/img3.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">FURNITURES & COLLABORATIONS</h5>
-                                </div>
-                            </a>
+                        <div class="main-card">
+                            <div class="card" style="width: 17rem;">
+                                <a href="">
+                                    <img src="../img/img3.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">FURNITURES & COLLABORATIONS</h5>
+                                    </div>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
 
-    <!-- PROJECTS  end-->
+        <!-- PROJECTS  end-->
 
-    <!-- PRIVATE HOMES Start -->
+        <!-- PRIVATE HOMES Start -->
 
-    <div class="container-fluid bg-pro">
-        <div class="d-flex flex-column">
-            <div class="private d-flex">
-                <div class="w-65">
-                    <a href="">
-                        <img src="../img/project1.jpg" alt="">
-                    </a>
-                </div>
-                <div class="w-35">
-                    <a href="">
-                        <p>PROJECTS</p>
-                        <h2>PRIVATE HOMES</h2>
-                        <p class="pro">Stephanie Coutas leads a team of architects, designers, and decorators who are
-                            present from the
-                            planning of projects up to their delivery.</p>
-
-                    </a>
-                </div>
-            </div>
-            <div class="private d-flex">
-                <div class="w-65">
-                    <a href="">
-                        <img src="../img/project2.jpg" alt="">
-                    </a>
-                </div>
-                <div class="w-35">
-                    <a href="">
-                        <p>PROJECTS</p>
-                        <h2>RETAILS & PALACES</h2>
-                        <p class="pro">Restaurants, hotels, and spas designed by Stéphanie Coutas’ agency around the
-                            world distil a style with a strong identity where the comfort of refined interiors competes
-                            with a luxurious reinterpretation of decorative arts.</p>
-
-                    </a>
-                </div>
-            </div>
-            <div class="private d-flex">
-                <div class="w-65">
-                    <a href="">
-                        <img src="../img/projects3.jpg" alt="">
-                    </a>
-                </div>
-                <div class="w-35">
-                    <a href="">
-                        <p>PROJECTS</p>
-                        <h2>FURNITURES & COLLABORATIONS</h2>
-                        <p class="pro">Stephanie Coutas constantly seeks innovation and originality in her work with
-                            materials. She collaborates with highly skilled artistic craftsmen and French ceramics,
-                            glass and fabric companies with production units that meet the practice’s stringent
-                            standards.
-                        </p>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
-
-
-    <!-- PRIVATE HOMES end -->
-
-    <!-- contact start -->
-    <div class="contact container-fluid d-flex flex-column bg-pro">
-        <div class="question container d-flex">
-            <h1 class="d-flex">HOW CAN WE HELP YOU?</h1>
-        </div>
-        <div class="contact-us d-flex">
-            <a href="">Contact us</a>
-        </div>
-        <div class="contact-detail">
-            <p>Send us a message to discuss your project in further details, or for information about our services.
-            </p>
-        </div>
-    </div>
-
-
-
-
-    <!-- contact end -->
-
-
-
-
-    <!-- footer start -->
-    <div class="footer">
-        <div class="footer-res container-fluid container">
-            <div class="footer-bar d-flex justify-content-center align-items-center">
-                <div class="footer-logo d-flex">
-                    <a href="http://127.0.0.1:5501/home/home.html"><img
-                            src="../home/img/logo1-removebg-preview__1_-removebg-preview.png" alt=""></a>
-                </div>
-                <div class="ul-main d-flex">
-                    <div class="footer-menu d-flex justify-content-center align-items-center">
-                        <ul class="d-flex justify-content-evenly w-100">
-                            <li><a href="">HOME</a></li>
-                            <li><a href="">THE GALLERY</a></li>
-                            <li><a href="">PROJECTS</a></li>
-                            <li><a href="">THE DESIGNER</a></li>
-                            <li><a href="">E-SHOP</a></li>
-                        </ul>
+        <div class="container-fluid bg-pro">
+            <div class="d-flex flex-column">
+                <div class="private d-flex">
+                    <div class="w-65">
+                        <a href="private/private.html">
+                            <img src="../img/project1.jpg" alt="">
+                        </a>
                     </div>
-                    <div class="footer-right d-flex justify-content-center align-items-center">
-                        <ul class="d-flex justify-content-center justify-content-evenly w-100">
-                            <li><a href="">PRESS</a></li>
-                            <li><a href="">CONTACT</a></li>
-                        </ul>
+                    <div class="w-35">
+                        <a href="">
+                            <p>PROJECTS</p>
+                            <h2>PRIVATE HOMES</h2>
+                            <p class="pro">Stephanie Coutas leads a team of architects, designers, and decorators who
+                                are
+                                present from the
+                                planning of projects up to their delivery.</p>
+
+                        </a>
+                    </div>
+                </div>
+                <div class="private d-flex">
+                    <div class="w-65">
+                        <a href="">
+                            <img src="../img/project2.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="w-35">
+                        <a href="">
+                            <p>PROJECTS</p>
+                            <h2>RETAILS & PALACES</h2>
+                            <p class="pro">Restaurants, hotels, and spas designed by Stéphanie Coutas’ agency around the
+                                world distil a style with a strong identity where the comfort of refined interiors
+                                competes
+                                with a luxurious reinterpretation of decorative arts.</p>
+
+                        </a>
+                    </div>
+                </div>
+                <div class="private d-flex">
+                    <div class="w-65">
+                        <a href="">
+                            <img src="../img/projects3.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="w-35">
+                        <a href="">
+                            <p>PROJECTS</p>
+                            <h2>FURNITURES & COLLABORATIONS</h2>
+                            <p class="pro">Stephanie Coutas constantly seeks innovation and originality in her work with
+                                materials. She collaborates with highly skilled artistic craftsmen and French ceramics,
+                                glass and fabric companies with production units that meet the practice’s stringent
+                                standards.
+                            </p>
+                        </a>
                     </div>
                 </div>
             </div>
-            <div class="footer-end d-flex justify-content-between">
-                <div class="end-detail">
-                    <div class="title-end">
-                        <h6>ELITE INTERIOR DESIGN BY SUJAL AND PRINCE</h6>
+        </div>
+
+
+
+
+
+        <!-- PRIVATE HOMES end -->
+
+        <!-- contact start -->
+        <div class="contact container-fluid d-flex flex-column bg-pro">
+            <div class="question container d-flex">
+                <h1 class="d-flex">HOW CAN WE HELP YOU?</h1>
+            </div>
+            <div class="contact-us d-flex">
+                <a href="">Contact us</a>
+            </div>
+            <div class="contact-detail">
+                <p>Send us a message to discuss your project in further details, or for information about our services.
+                </p>
+            </div>
+        </div>
+
+
+
+
+        <!-- contact end -->
+
+
+
+
+        <!-- footer start -->
+        <div class="footer">
+            <div class="footer-res container-fluid container">
+                <div class="footer-bar d-flex justify-content-center align-items-center">
+                    <div class="footer-logo d-flex">
+                        <a href="http://127.0.0.1:5501/home/home.html"><img
+                                src="../home/img/logo1-removebg-preview__1_-removebg-preview.png" alt=""></a>
                     </div>
-                    <div class="contact d-flex flex-column">
-                        <a href="">XYZ, Surat, India, 395004</a>
-                        <a href="">Phone: +91 78628 72304</a>
-                        <span>The Gallery is open from Monday to Saturday, from 11am to 7pm (prince@interior.com)</span>
-                        <span>The Office is open from Monday to Friday, from 9.30 am to 7pm (sujal@interior.com)</span>
-                    </div>
-                </div>
-                <div class="end d-flex">
-                    <div class="social d-flex justify-content-end">
-                        <div class="app d-flex justify-content-end">
-                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
-                            <a href=""><i class="fa-brands fa-facebook"></i></a>
-                            <a href=""><i class="fa-brands fa-instagram"></i></a>
-                            <a href=""><i class="fa-brands fa-pinterest"></i></a>
-                            <a href=""><i class="fa-brands fa-square-youtube"></i></a>
+                    <div class="ul-main d-flex">
+                        <div class="footer-menu d-flex justify-content-center align-items-center">
+                            <ul class="d-flex justify-content-evenly w-100">
+                                <li><a href="">HOME</a></li>
+                                <li><a href="">THE GALLERY</a></li>
+                                <li><a href="">PROJECTS</a></li>
+                                <li><a href="">THE DESIGNER</a></li>
+                                <li><a href="">E-SHOP</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-right d-flex justify-content-center align-items-center">
+                            <ul class="d-flex justify-content-center justify-content-evenly w-100">
+                                <li><a href="">PRESS</a></li>
+                                <li><a href="">CONTACT</a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="copyright d-flex justify-content-end">
-                <div class="copy-end d-flex">
-                    <span>©</span>
-                    <p>2024</p>
-                    <a href="">Terms and Services</a>
+                <div class="footer-end d-flex justify-content-between">
+                    <div class="end-detail">
+                        <div class="title-end">
+                            <h6>ELITE INTERIOR DESIGN BY SUJAL AND PRINCE</h6>
+                        </div>
+                        <div class="contact d-flex flex-column">
+                            <a href="">XYZ, Surat, India, 395004</a>
+                            <a href="">Phone: +91 78628 72304</a>
+                            <span>The Gallery is open from Monday to Saturday, from 11am to 7pm
+                                (prince@interior.com)</span>
+                            <span>The Office is open from Monday to Friday, from 9.30 am to 7pm
+                                (sujal@interior.com)</span>
+                        </div>
+                    </div>
+                    <div class="end d-flex">
+                        <div class="social d-flex justify-content-end">
+                            <div class="app d-flex justify-content-end">
+                                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                <a href=""><i class="fa-brands fa-pinterest"></i></a>
+                                <a href=""><i class="fa-brands fa-square-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright d-flex justify-content-end">
+                    <div class="copy-end d-flex">
+                        <span>©</span>
+                        <p>2024</p>
+                        <a href="">Terms and Services</a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="end-border"></div>
-    <!-- footer end -->
+        <div class="end-border"></div>
+        <!-- footer end -->
 
 
 
 
 
-    <script src="../js/bootstrap.bundle.js"></script>
+        <script src="../js/bootstrap.bundle.js"></script>
 </body>
 
 </html>
