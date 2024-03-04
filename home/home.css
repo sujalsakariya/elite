@@ -20,6 +20,7 @@
     background-position: center center;
     background-size: cover;
     height: 650px;
+    position: relative;
 }
 
 /* social icon */
