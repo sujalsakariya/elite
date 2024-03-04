@@ -14,7 +14,7 @@
 /* home star */
 /* home-top */
 .bg-pro{
-    background-color: #222;
+    background-color: #333;
 }
 .home-main {
     width: 100%;
@@ -24,46 +24,80 @@
     height: 650px;
 }
 
-/* social - start*/
-.social {
-    padding: 5px 30px;
+/* social icon */
+.app ul {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.app ul li {
+    list-style: none;
+}
+
+.app ul li a {
+    width: 25px;
+    height: 25px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 28px;
+    font-size: 10px;
+    margin: 0 10px;
+    display: block;
+    border-radius: 50%;
     position: relative;
-    z-index: 999;
+    overflow: hidden;
+    border: 1px solid #fff;
+    z-index: 1;
 }
 
-.app {
-    width: 92%;
-    column-gap: 20px;
+.app ul li a .icon {
+    position: relative;
+    color: #262626;
+    transition: .5s;
+    z-index: 3;
 }
 
-.social i {
-    font-size: 18px;
-    color: rgb(255, 255, 255);
-    transition: 0.3s;
+.app ul li a:hover .icon {
+    color: #fff;
+    transform: rotateY(360deg);
 }
 
-.social a:hover i {
-    color: rgb(215, 161, 27);
+.app ul li a:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f00;
+    transition: .5s;
+    z-index: 2;
 }
 
-.social a:hover {
-    transform: scale(1.05);
+.app ul li a:hover:before {
+    top: 0;
 }
 
-.language {
-    width: 8%;
+.app ul li:nth-child(1) a:before {
+    background: #3b5999;
 }
 
-.language a {
-    color: rgb(255, 255, 255);
-    font-family: "Inter", sans-serif;
-    text-decoration: none;
-    font-size: 14px;
-    padding: 2px 0;
-    border-bottom: 0.1em solid;
+.app ul li:nth-child(2) a:before {
+    background: #55acee;
 }
 
-/* social - end */
+.app ul li:nth-child(3) a:before {
+    background: #0077b5;
+}
+
+.app ul li:nth-child(4) a:before {
+    background: #dd4b39;
+}
+
+/* social icon end*/
+
 /* navbar */
 .home-main .navbar {
     width: 100%;

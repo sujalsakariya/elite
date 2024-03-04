@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../../css/bootstrap.min.css">
     <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" href="output.css">
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Zeyada&display=swap" rel="stylesheet">
@@ -21,20 +21,7 @@
     <!-- home-head -->
     <div class="home-main">
 
-        <!-- social app -->
-        <div class="social d-flex">
-            <div class="app d-flex justify-content-end">
-                <a href=""><i class="fa-brands fa-linkedin"></i></a>
-                <a href=""><i class="fa-brands fa-facebook"></i></a>
-                <a href=""><i class="fa-brands fa-instagram"></i></a>
-                <a href=""><i class="fa-brands fa-pinterest"></i></a>
-                <a href=""><i class="fa-brands fa-square-youtube"></i></a>
-            </div>
-            <div class="language d-flex justify-content-end">
-                <a href="">EN</a>
-            </div>
-        </div>
-        <!-- social app  end-->
+      
 
         <!-- navbar -->
         <div class="navbar d-flex flex-row justify-content-center">
@@ -51,8 +38,30 @@
                     <li><a href="" class="ul-a d-flex align-items-center">E-SHOP</a></li>
                 </ul>
             </div>
+            
             <!-- new -->
-            <div class="nav-right d-flex flex-row-reverse">
+            <div class="nav-right d-flex flex-row justify-content-end">
+                  <!-- social app -->
+        <div class="social d-flex">
+            <div class="app d-flex justify-content-center">
+                <ul>
+                    <li>
+                      <a href="#">
+                        <i class="fab fa-facebook-f icon"></i> </a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fab fa-twitter icon"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fab fa-linkedin-in icon"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fab fa-google-plus-g icon"></i></a>
+                    </li>
+                  </ul> 
+            </div>
+        </div>
+        <!-- social app  end-->
                 <ul class="nav nav-tabs justify-content-center align-items-center">
                     <li class="nav-item d-flex">
 
@@ -122,11 +131,9 @@
         </div>
         <div
             class="heading-name d-flex flex-column justify-content-center align-items-center align-content-center container">
-            <h2 class="tracking-in-expand-fwd-top">CONTACT US</h2>
+            <h2 class="tracking-in-expand-fwd-top " data-aos="fade-down">PRIVATE HOMES</h2>
             <div class="head-h1 d-flex">
-                <h1
-                    class="d-flex align-content-center align-items-center justify-content-center tracking-in-expand-fwd">
-                    How can we help you?</h1>
+
             </div>
         </div>
     </div>
@@ -134,7 +141,7 @@
     <!-- home-head end-->
     <div class="contact container-fluid d-flex flex-column bg-pro">
         <div class=" container d-flex justify-content-center flex-column align-items-center">
-            <div class="main">
+            <div class="main" data-aos="fade-down">
                 <a href="">
                     <div class="main-img  mb-2">
                         <img src="img/img1.jpg" alt="">
@@ -144,7 +151,7 @@
                     </div>
                 </a>
             </div>
-            <div class="main">
+            <div class="main" data-aos="fade-right">
                 <a href="">
                     <div class="main-img mb-2">
                         <img src="img/img2.jpg" alt="">
@@ -154,7 +161,7 @@
                     </div>
                 </a>
             </div>
-            <div class="main">
+            <div class="main" data-aos="fade-left">
                 <a href="">
                     <div class="main-img mb-2">
                         <img src="img/img3.png" alt="">
@@ -164,7 +171,7 @@
                     </div>
                 </a>
             </div>
-            <div class="main">
+            <div class="main" data-aos="zoom-in">
                 <a href="">
                     <div class="main-img mb-2">
                         <img src="img/img4.jpg" alt="">
@@ -255,9 +262,9 @@
 
 
 
-
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="../../js/bootstrap.bundle.js"></script>
+    <script src="anim.js"></script>
 </body>
 
 </html>
