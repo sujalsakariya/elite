@@ -359,6 +359,49 @@
 
 /* social icon end*/
 /* home end */
+/*  contact start */
+.contact {
+    flex-wrap: wrap;
+    align-content: center;
+    margin: 50px 0;
+}
+
+.question {
+    width: 35% !important;
+    justify-content: center !important;
+    text-align: center;
+}
+
+.question h1 {
+    font-family: "ivymode", sans-serif;
+    font-size: 60px;
+    font-weight: 300;
+    color: #070000;
+}
+
+.contact-us {
+    justify-content: center !important;
+    margin-top: 60px;
+}
+
+.contact-us a {
+    background-color: #222;
+    color: #ffffff !important;
+    padding: 5px 80px;
+    border-radius: 5px;
+}
+
+.contact-w {
+    width: 50%;
+    flex-wrap: wrap;
+}
+
+.contact-detail {
+    margin-top: 70px;
+    color: #999;
+}
+
+/*  contact end */
 
 
 /* footer start */
@@ -481,6 +524,7 @@
 }
 
 /* footer end */
+
 
 
 
