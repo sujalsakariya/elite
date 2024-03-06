@@ -7,7 +7,7 @@
   <title>Elite Decor</title>
   <link rel="stylesheet" href="../css/all.min.css">
   <link rel="stylesheet" href="../css/bootstrap.min.css">
-  <link rel="stylesheet" href="animation.css">
+
   <link rel="stylesheet" href="home.css">
   <link rel="stylesheet" href="./output.css">
   <link rel="stylesheet" href="responsive.css">
@@ -30,6 +30,9 @@
   <link rel="stylesheet" href="https://use.typekit.net/bqa6zzb.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
     integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -139,9 +142,9 @@
     </div>
     <div
       class="heading-name d-flex flex-column justify-content-center align-items-center align-content-center container">
-      <h2 class="tracking-in-contract-bck">ELITE DECOR</h2>
+      <h2 data-aos="fade-down">ELITE DECOR</h2>
       <div class="head-h1 d-flex">
-        <h1 class="d-flex align-content-center align-items-center justify-content-center tracking-in-expand-fwd">
+        <h1 class="d-flex align-content-center align-items-center justify-content-center" data-aos="fade-up">
           INTERIOR DESIGN STUDIO & ART
           GALLERY</h1>
       </div>
@@ -157,52 +160,125 @@
         <div class="w-30 d-flex">
           <span class="tracking-in-expand-fwd">PROJECTS</span>
           <p>What we do</p>
-          <div class="btn">
-            <a class="btn vibrate-1" href="" role="button">ALL PROJECTS</a>
+          <div class="btn2">
+            <button class="btn1">ALL PROJECTS</button>
           </div>
+
         </div>
         <div class="w-70">
-          <div class="card fade-in " style="width: 15rem;">
-            <a href="">
-              <div class="over">
-                <img src="../img/img1.jpg" class="card-img-top" alt="...">
+          <!-- new card-body start -->
+          <div class="app">
+
+            <div class="cardList">
+              <button class="cardList__btn btn btn--left">
+                <div class="icon">
+                  <svg>
+                    <use xlink:href="#arrow-left"></use>
+                  </svg>
+                </div>
+              </button>
+
+              <div class="cards__wrapper">
+                <div class="card current--card">
+                  <div class="card__image">
+                    <img src="../img/img1.jpg" alt="" />
+                  </div>
+                </div>
+
+                <div class="card next--card">
+                  <div class="card__image">
+                    <img src="../img/img2.jpg" alt="" />
+                  </div>
+                </div>
+
+                <div class="card previous--card">
+                  <div class="card__image">
+                    <img src="../img/img3.jpg" alt="" />
+                  </div>
+                </div>
               </div>
-              <div class="card-body">
-                <h5 class="card-title">PRIVATE HOMES</h5>
+
+              <button class="cardList__btn btn btn--right">
+                <div class="icon">
+                  <svg>
+                    <use xlink:href="#arrow-right"></use>
+                  </svg>
+                </div>
+              </button>
+            </div>
+
+            <div class="infoList">
+              <div class="info__wrapper">
+                <div class="info current--info">
+                  <h1 class="text name">Private Home</h1>
+                  <h4 class="text location">Surat</h4>
+                  <p class="text description">Our Private Homes Designs</p>
+                </div>
+
+                <div class="info next--info">
+                  <h1 class="text name">RETAILS</h1>
+                  <h4 class="text location">Surat</h4>
+                  <p class="text description">Let your dreams come true</p>
+                </div>
+
+                <div class="info previous--info">
+                  <h1 class="text name">FURNITURES</h1>
+                  <h4 class="text location">Surat</h4>
+                  <p class="text description">Our FURNITURES & COLLABORATIONS Designs</p>
+                </div>
               </div>
-            </a>
+            </div>
+
+
+            <div class="app__bg">
+              <div class="app__bg__image current--image">
+                <img src="https://source.unsplash.com/Z8dtTatMVMw" alt="" />
+              </div>
+              <div class="app__bg__image next--image">
+                <img src="https://source.unsplash.com/9dmycbFE7mQ" alt="" />
+              </div>
+              <div class="app__bg__image previous--image">
+                <img src="https://source.unsplash.com/m7K4KzL5aQ8" alt="" />
+              </div>
+            </div>
           </div>
-          <div class="card fade-in " style="width: 15rem;">
-            <a href="">
-              <div class="over">
-                <img src="../img/img2.jpg" class="card-img-top" alt="...">
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">RETAILS & PALACES</h5>
-              </div>
-            </a>
-          </div>
-          <div class="card fade-in " style="width: 15rem;">
-            <a href="">
-              <div class="over">
-                <img src="../img/img3.jpg" class="card-img-top" alt="...">
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">FURNITURES & COLLABORATIONS</h5>
-              </div>
-            </a>
-          </div>
+
+
+
+          <svg class="icons" style="display: none;">
+            <symbol id="arrow-left" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+              <polyline points='328 112 184 256 328 400'
+                style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+            </symbol>
+            <symbol id="arrow-right" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+              <polyline points='184 112 328 256 184 400'
+                style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+            </symbol>
+          </svg>
+
         </div>
       </div>
     </div>
   </div>
   <!-- PROJECTS  end-->
 
+
+
+
+
+
+
+
+
+
+
+
+  <!-- new card-body end -->
   <!-- Designer  start-->
   <div class="container-fluid bg-aa">
     <div class="container d-flex flex-column">
       <div class="designer d-flex">
-        <div class="w-40">
+        <div class="w-40 ">
           <img src="../img/designer1.png" class="card-img-top" alt="...">
         </div>
         <div class="w-60">
@@ -236,36 +312,7 @@
           </div>
         </div>
         <div class="w-70">
-          <div class="card fade-in " style="width: 15rem;">
-            <a href="">
-              <div class="over">
-                <img src="../img/slider1.jpg" class="card-img-top" alt="...">
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">Mirrors</h5>
-              </div>
-            </a>
-          </div>
-          <div class="card fade-in " style="width: 15rem;">
-            <a href="">
-              <div class="over">
-                <img src="../img/slider2.jpg" class="card-img-top" alt="...">
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">SideBoard</h5>
-              </div>
-            </a>
-          </div>
-          <div class="card fade-in " style="width: 15rem;">
-            <a href="">
-              <div class="over">
-                <img src="../img/slider3.jpg" class="card-img-top" alt="...">
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">Chair / Armchairs</h5>
-              </div>
-            </a>
-          </div>
+
         </div>
       </div>
     </div>
@@ -359,9 +406,12 @@
 
 
 
-
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"></script>
+  <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="../js/bootstrap.bundle.js"></script>
+  <script src="../js/anim.js"></script>
+  <script src="card.js"></script>
 </body>
 
 </html>
