@@ -108,10 +108,10 @@ button:focus {
   z-index: 100;
 }
 .cardList__btn.btn--left {
-  left: -15%;
+  left: -5%;
 }
 .cardList__btn.btn--right {
-  right: -15%;
+  right: -5%;
 }
 .cardList__btn .icon {
   width: 100%;
