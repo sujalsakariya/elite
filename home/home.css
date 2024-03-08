@@ -121,11 +121,11 @@ button:focus {
 }
 
 .cardList__btn.btn--left {
-  left: -8%;
+    left: -8%;
 }
 
 .cardList__btn.btn--right {
-  right: -8%;
+    right: -8%;
 }
 
 .cardList__btn .icon {

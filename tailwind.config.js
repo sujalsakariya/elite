@@ -58,4 +58,12 @@ module.exports = {
   ],
 }
 
-// tailwind.config.js
+
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./GALLERY/**/*.{html,js}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}

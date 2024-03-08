@@ -220,6 +220,7 @@ a {
     top: 0px;
     background-color: rgba(0, 0, 0, 0.756);
     height: 100px;
+    z-index: 1;
 }
 
 .nav-left {
@@ -374,6 +375,19 @@ a {
 
 .offcanvas i {
     color: black !important;
+}
+
+.card-img-top:hover {
+    transform: scale(1.05);
+}
+
+.card-body {
+    height: 100px;
+}
+
+.over {
+    overflow: hidden;
+    box-sizing: border-box;
 }
 
 /* slide menu end*/
