@@ -777,38 +777,67 @@ button:focus {
     justify-content: center;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Epilogue&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap");
-
-.btn2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.btn1 {
-    height: 3.5rem;
-    padding: 0 2rem;
-    border: 0.1rem solid #000;
-    border-radius: 10px;
-    box-shadow: 0 0.4rem 0 0 #000;
-    background-color: #999;
-    color: #000;
-    font-family: "Epilogue", sans-serif;
-    font-size: 1.2rem;
-    cursor: pointer;
-    transition: all 0.3s;
-
-    &:hover {
-        transform: translateY(0.3rem);
-        box-shadow: 0 0.2rem 0 0 #000;
-    }
-}
-
-
 
 /*  PROJECTS  End */
+/* Layout Styling */
 
+
+  
+  /* Button Styles */
+  
+  .button {
+    display: inline-flex;
+    height: 40px;
+    width: 150px;
+    border: 2px solid #BFC0C0;
+    margin: 20px 20px 20px 20px;
+    color: #BFC0C0;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: .8em;
+    letter-spacing: 1.5px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+ .button a {
+    color: #BFC0C0;
+    text-decoration: none;
+    letter-spacing: 1px;
+  }
+  
+/* Second Button */
+
+#button-2 {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  #button-2 a {
+    position: relative;
+    transition: all .35s ease-Out;
+  }
+  
+  #slide {
+    width: 100%;
+    height: 100%;
+    left: -200px;
+    background: #BFC0C0;
+    position: absolute;
+    transition: all .35s ease-Out;
+    bottom: 0;
+  }
+  
+  #button-2:hover #slide {
+    left: 0;
+  }
+  
+  #button-2:hover a {
+    color: #2D3142;
+  }
+  
 
 /* Designer  start */
 
@@ -871,28 +900,12 @@ button:focus {
     color: #999 !important;
 }
 
-.w-60 .btn {
-    display: flex;
-    justify-content: center;
-    margin-top: 35px;
-}
 
 .bg-aa {
     background-color: #222 !important;
 }
 
-.w-60 .btn a {
-    display: flex;
-    justify-content: center;
-    background-color: #999;
-    font-size: 14px;
-    padding: 10px 50px;
-}
 
-.btn a:hover {
-    text-decoration: none;
-    background-color: #C19A5B;
-}
 
 /* Designer  end */
 
@@ -949,11 +962,6 @@ button:focus {
     font-size: 14px;
     margin-top: 35px;
     padding: 10px 50px;
-}
-
-.gallrey a:hover {
-    background-color: #C19A5B;
-    text-decoration: none;
 }
 
 
