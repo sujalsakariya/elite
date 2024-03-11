@@ -925,7 +925,6 @@ button:focus {
     height: 650px;
     position: relative;
     color: #222;
-    z-index: 1000;
 }
 
 .gallrey-title p {
