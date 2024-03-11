@@ -121,11 +121,11 @@ button:focus {
 }
 
 .cardList__btn.btn--left {
-  left: -8%;
+    left: -8%;
 }
 
 .cardList__btn.btn--right {
-  right: -8%;
+    right: -8%;
 }
 
 .cardList__btn .icon {
@@ -895,66 +895,7 @@ button:focus {
 }
 
 /* Designer  end */
-/* slider start */
 
-.slider {
-    flex-direction: row;
-    padding: 50px 0;
-    width: 100%;
-}
-
-.slider-bg {
-    background-color: #333;
-}
-
-.slider h2 {
-    font-family: "ivymode", sans-serif;
-    font-size: 78px;
-    margin-left: 55px;
-    color: #999;
-}
-
-.slider p {
-    font-size: 35px;
-}
-
-.uk-panel {
-
-    margin-right: 20px;
-    overflow: hidden;
-
-    box-shadow: 2px 3px 13px 4px #76767626;
-}
-
-.w-70 .uk-panel .card {
-    border-radius: 10px;
-    overflow: hidden;
-
-    border: 0;
-}
-
-.w-70 .uk-panel .card img {
-    height: 250px;
-
-}
-
-.w-70 .uk-panel .card .card-title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 13px;
-
-}
-
-.w-70 .card .card-title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 13px;
-    color: rgb(69, 69, 69);
-}
-
-/* slider end */
 /* gallrey */
 .gallrey {
     background-image: url(img/101.jpg);
