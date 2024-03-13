@@ -2,291 +2,136 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>e-shop</title>
     <link rel="stylesheet" href="e.css">
-    <link rel="stylesheet" href="../css/all.min.css">
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="output.css">
-    <link rel="icon" href="../home/img/logo1-removebg-preview__1_-removebg-preview.png">
-    <link rel="stylesheet" href="responsive.css">
+    <!-- <link rel="stylesheet" href="../css/all.min.css"> -->
+    <!-- <link rel="stylesheet" href="../css/bootstrap.min.css"> -->
+    <!-- <link rel="stylesheet" href="output.css"> -->
+    <!-- <link rel="icon" href="../home/img/logo1-removebg-preview__1_-removebg-preview.png"> -->
+    <!-- <link rel="stylesheet" href="responsive.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.6.0/css/all.min.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Zeyada&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.typekit.net/bqa6zzb.css">
 </head>
 
 <body>
-    <!-- home-head -->
-    <div class="home-main">
-        <video id="banner_auto_play" muted="" autoplay="" playsinline="" preload="auto" loop="">
-            <source type="video/mp4" src="pexels-cottonbro-6114642 (2160p).mp4">
-        </video>
 
-        <!-- navbar -->
-        <div class="navbar d-flex flex-row justify-content-center">
-            <div class="nav-left">
-                <ul class="d-flex flex-row justify-content-evenly">
-                    <div class="nav-img">
-                        <a href="http://127.0.0.1:5501/home/home.html" class=""><img
-                                src="../../home/img/logo1-removebg-preview__1_-removebg-preview.png" alt=""></a>
-                    </div>
-                    <li><a href="../home/home.html" class="ul-a d-flex align-items-center ">HOME</i></a></li>
-                    <li><a href="" class="ul-a d-flex align-items-center">THE GALLERY</i></a></li>
-                    <li><a href="" class="ul-a d-flex align-items-center">PROJECTS</i></a></li>
-                    <li><a href="" class="ul-a d-flex align-items-center">THE DESIGNER</i></a></li>
-                    <li><a href="" class="ul-a d-flex align-items-center">E-SHOP</a></li>
-                </ul>
+
+
+    <div>
+        <h2>Eshop</h2>
+
+        <button id='cart-button' class="trigger cart-button-style">Show Cart</button>
+
+
+        <div id="shop">
+
+            <div class="products ios apple" id="iphone-x">
+                <img class="product-image" src="img/1.jpg">
+                <p class="product-name">iPhone X</p>
+                <p class="product-price" value='999'>999</p>
+                <button class="add-to-cart" id='test'>ADD TO CART</button>
             </div>
-            <!-- new -->
-            <div class="nav-right d-flex flex-row-reverse">
-                <div class="social d-flex">
-                    <div class="app d-flex justify-content-end">
-                        <ul>
-                            <li>
-                                <a href="#">
-                                    <i class="fab fa-facebook-f icon"></i> </a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fab fa-twitter icon"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fab fa-linkedin-in icon"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fab fa-google-plus-g icon"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <ul class="nav nav-tabs justify-content-center align-items-center">
-                    <li class="nav-item d-flex">
 
-                        <!-- Button trigger modal -->
-                        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                            <i class="fa-solid fa-magnifying-glass none"></i>
-                        </button>
-
-                        <!-- Modal -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                            aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <input type="search" placeholder="Search..." class="modal-header">
-                                </div>
-                            </div>
-                        </div>
-
-                        <a href=""><i class="fa-regular fa-user none"></i></a>
-                        <a href=""><i class="fa-solid fa-bag-shopping none"></i></a>
-                    </li>
-                    <li class="nav-item dropdown none-a nav-link" data-bs-toggle="" href="" role="button"
-                        aria-expanded="false">
-                        <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
-                            aria-controls="offcanvasExample">
-                            <i class="fa-solid fa-bars"></i>
-                        </button>
-                        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
-                            aria-labelledby="offcanvasExampleLabel">
-                            <div class="btn-main d-flex">
-                                <div class="nav-img">
-                                    <a href="http://127.0.0.1:5501/contact-page/contact.html" class=""><img
-                                            src="../../home/img/logo1-removebg-preview__1_-removebg-preview.png"
-                                            alt=""></a>
-                                </div>
-                                <div class="offcanvas-header">
-                                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
-                                        aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
-                                </div>
-                            </div>
-                            <div class="offcanvas-body">
-                                <ul>
-                                    <li><a href="">HOME</a></li>
-                                    <hr>
-                                    <li><a href="">THE GALLERY</a></li>
-                                    <hr>
-                                    <li><a href="">PROJECTS</a></li>
-                                    <hr>
-                                    <li><a href="">THE DESIGNER</a></li>
-                                    <hr>
-                                    <li><a href="">E-SHOP</a></li>
-                                </ul>
-                            </div>
-                            <div class="app d-flex justify-content-end">
-                                <a href=""><i class="fa-brands fa-linkedin"></i></a>
-                                <a href=""><i class="fa-brands fa-facebook"></i></a>
-                                <a href=""><i class="fa-brands fa-instagram"></i></a>
-                                <a href=""><i class="fa-brands fa-pinterest"></i></a>
-                                <a href=""><i class="fa-brands fa-square-youtube"></i></a>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
+            <div class="products android samsung" id="samsung-s9">
+                <img class="product-image" src="img/2.jpg">
+                <p class="product-name">Samsung S9</p>
+                <p class="product-price" value='789'>789</p>
+                <button class="add-to-cart">ADD TO CART</button>
             </div>
-            <!-- new end -->
 
-        </div>
-        <div
-            class="heading-name d-flex flex-column justify-content-center align-items-center align-content-center container">
-            <h2 class="tracking-in-expand-fwd-top">CONTACT US</h2>
-            <div class="head-h1 d-flex">
-                <h1
-                    class="d-flex align-content-center align-items-center justify-content-center tracking-in-expand-fwd">
-                    How can we help you?</h1>
+            <div class="products android google" id="pixel-2">
+                <img class="product-image" src="img/3.jpg">
+                <p class="product-name">Pixel 2</p>
+                <p class="product-price" value='876'>876</p>
+                <button class="add-to-cart">ADD TO CART</button>
+            </div>
+
+            <div class="products android oneplus" id="oneplus-6">
+                <img class="product-image" src="img/4.jpg">
+                <p class="product-name">Oneplus 6</p>
+                <p class="product-price" value='799'>799</p>
+                <button class="add-to-cart">ADD TO CART</button>
+            </div>
+
+            <div class="products ios apple" id="iphone-8">
+                <img class="product-image" src="img/5.jpg">
+                <p class="product-name">iPhone 8</p>
+                <p class="product-price" value='719'>719</p>
+                <button class="add-to-cart">ADD TO CART</button>
+            </div>
+
+            <div class="products android huawei" id="huawei-p20">
+                <img class="product-image" src="img/6.jpg">
+                <p class="product-name">Huawei P20</p>
+                <p class="product-price" value='769'>769</p>
+                <button class="add-to-cart">ADD TO CART</button>
+            </div>
+
+            <div class="products android lg" id="lg-g7">
+                <img class="product-image" src="http://via.placeholder.com/200x200">
+                <p class="product-name">LG G7 ThinQ</p>
+                <p class="product-price" value='699'>699</p>
+                <button class="add-to-cart">ADD TO CART</button>
+            </div>
+
+            <div class="products android huawei" id="huawei-mate-10-pro">
+                <img class="product-image" src="http://via.placeholder.com/200x200">
+                <p class="product-name">Huawei Mate 10 Pro</p>
+                <p class="product-price" value='899'>899</p>
+                <button class="add-to-cart">ADD TO CART</button>
             </div>
         </div>
+
     </div>
-    <!-- navbar end-->
-    <!-- home-head end-->
-
-    <!-- shop -->
-    <!--
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/aspect-ratio'),
-    ],
-  }
-  ```
--->
-    <div class="bg-white my-5">
-        <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
-
-            <div class="mt-6 grid  gap-3 grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8 d-flex">
-                <div class="group relative">
-                    <div
-                        class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
-                        <img src="img/1.jpg" alt="Front of men&#039;s Basic Tee in black."
-                            class="h-full w-full object-cover object-center lg:h-full lg:w-full">
-                    </div>
-                    <div class="mt-4 flex justify-between">
-                        <div>
-                            <h3 class="text-sm text-gray-700">
-                                <a href="#">
-                                    <span aria-hidden="true" class="absolute inset-0"></span>
-                                    Basic Tee
-                                </a>
-                            </h3>
-                            <p class="mt-1 text-sm text-gray-500">Black</p>
-                        </div>
-                        <p class="text-sm font-medium text-gray-900">$35</p>
-                    </div>
-                </div>
-
-                <!-- More products... -->
-                <div class="group relative">
-                    <div
-                        class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
-                        <img src="img/2.jpg" alt="Front of men&#039;s Basic Tee in black."
-                            class="h-full w-full object-cover object-center lg:h-full lg:w-full">
-                    </div>
-                    <div class="mt-4 flex justify-between">
-                        <div>
-                            <h3 class="text-sm text-gray-700">
-                                <a href="#">
-                                    <span aria-hidden="true" class="absolute inset-0"></span>
-                                    Basic Tee
-                                </a>
-                            </h3>
-                            <p class="mt-1 text-sm text-gray-500">Black</p>
-                        </div>
-                        <p class="text-sm font-medium text-gray-900">$35</p>
-                    </div>
-                </div>
-                <div class="group relative">
-                    <div
-                        class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
-                        <img src="img/3.jpg" alt="Front of men&#039;s Basic Tee in black."
-                            class="h-full w-full object-cover object-center lg:h-full lg:w-full">
-                    </div>
-                    <div class="mt-4 flex justify-between">
-                        <div>
-                            <h3 class="text-sm text-gray-700">
-                                <a href="#">
-                                    <span aria-hidden="true" class="absolute inset-0"></span>
-                                    Basic Tee
-                                </a>
-                            </h3>
-                            <p class="mt-1 text-sm text-gray-500">Black</p>
-                        </div>
-                        <p class="text-sm font-medium text-gray-900">$35</p>
-                    </div>
-                </div>
-
+    <div id='cart-wrapper' class="slider close">
+        <div id='cart'>
+            <div id="cart-products-wrapper">
+                <table id="cart-table">
+                    <thead id="cart-table-header">
+                        <th class="name-col">Product Name</th>
+                        <th class="quantity-col">Quantity</th>
+                        <th class="price-col">Price</th>
+                        <th class="updated-price-col">Updated Price</th>
+                        <th class="update-col">Update</th>
+                        <th class="remove-col">Remove</th>
+                    </thead>
+                    <tbody id="cart-table-body"></tbody>
+                </table>
             </div>
         </div>
-    </div>
-    <div class="bg-white my-5">
-        <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
 
-            <div class="mt-6 grid  gap-3 grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8 d-flex">
-                <div class="group relative">
-                    <div
-                        class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
-                        <img src="img/4.jpg" alt="Front of men&#039;s Basic Tee in black."
-                            class="h-full w-full object-cover object-center lg:h-full lg:w-full">
-                    </div>
-                    <div class="mt-4 flex justify-between">
-                        <div>
-                            <h3 class="text-sm text-gray-700">
-                                <a href="#">
-                                    <span aria-hidden="true" class="absolute inset-0"></span>
-                                    Basic Tee
-                                </a>
-                            </h3>
-                            <p class="mt-1 text-sm text-gray-500">Black</p>
-                        </div>
-                        <p class="text-sm font-medium text-gray-900">$35</p>
-                    </div>
-                </div>
+        <div id='amount-controls'>
+            <div id="cart-amount-wrapper">
+                <table>
+                    <tbody>
+                        <tr id='subtotal-wrappper'>
+                            <td id="subtotal-label">Subtotal:</td>
+                            <td id="subtotal">0.00</td>
+                        </tr>
 
-                <!-- More products... -->
-                <div class="group relative">
-                    <div
-                        class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
-                        <img src="img/5.jpg" alt="Front of men&#039;s Basic Tee in black."
-                            class="h-full w-full object-cover object-center lg:h-full lg:w-full">
-                    </div>
-                    <div class="mt-4 flex justify-between">
-                        <div>
-                            <h3 class="text-sm text-gray-700">
-                                <a href="#">
-                                    <span aria-hidden="true" class="absolute inset-0"></span>
-                                    Basic Tee
-                                </a>
-                            </h3>
-                            <p class="mt-1 text-sm text-gray-500">Black</p>
-                        </div>
-                        <p class="text-sm font-medium text-gray-900">$35</p>
-                    </div>
-                </div>
-                <div class="group relative">
-                    <div
-                        class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
-                        <img src="img/6.jpg" alt="Front of men&#039;s Basic Tee in black."
-                            class="h-full w-full object-cover object-center lg:h-full lg:w-full">
-                    </div>
-                    <div class="mt-4 flex justify-between">
-                        <div>
-                            <h3 class="text-sm text-gray-700">
-                                <a href="#">
-                                    <span aria-hidden="true" class="absolute inset-0"></span>
-                                    Basic Tee
-                                </a>
-                            </h3>
-                            <p class="mt-1 text-sm text-gray-500">Black</p>
-                        </div>
-                        <p class="text-sm font-medium text-gray-900">$35</p>
-                    </div>
-                </div>
+                        <tr id='total-wrapper'>
+                            <td id="total-label">Total:</td>
+                            <td id="total">0.00</td>
+                        </tr>
 
+                        <tr id="promo-checkout">
+                            <td id="promo-wrapper">
+                                <input id="promo" placeholder="Input Promo Code">
+                                <button id="apply-promo">Apply Promo</button>
+                            </td>
+
+                            <td>
+                                <button id="checkout">Checkout</button>
+                            </td>
+
+                            <td>
+                                <button id="ks" class="keep-shopping">Keep Shopping</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>
@@ -294,100 +139,11 @@
 
 
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="add.js"></script>
 
 
 
-
-
-    <!-- shop end -->
-
-
-
-
-
-    <!-- contact start -->
-    <div class="contact container-fluid d-flex flex-column bg-pro">
-        <div class="question container d-flex">
-            <h1 class="d-flex">HOW CAN WE HELP YOU?</h1>
-        </div>
-        <div class="contact-btn">
-            <div class="contact-us d-flex">
-                <a href="">Contact us</a>
-            </div>
-        </div>
-        <div class="contact-detail">
-            <p>Send us a message to discuss your project in further details, or for information about our services.
-            </p>
-        </div>
-    </div>
-
-    <!-- footer start -->
-    <div class="footer">
-        <div class="footer-res container-fluid container">
-            <div class="footer-bar d-flex justify-content-center align-items-center">
-                <div class="footer-logo d-flex">
-                    <a href="http://127.0.0.1:5501/home/home.html"><img
-                            src="../home/img/logo1-removebg-preview__1_-removebg-preview.png" alt=""></a>
-                </div>
-                <div class="ul-main d-flex">
-                    <div class="footer-menu d-flex justify-content-center align-items-center">
-                        <ul class="d-flex justify-content-evenly w-100">
-                            <li><a href="">HOME</a></li>
-                            <li><a href="">THE GALLERY</a></li>
-                            <li><a href="">PROJECTS</a></li>
-                            <li><a href="">THE DESIGNER</a></li>
-                            <li><a href="">E-SHOP</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-right d-flex justify-content-center align-items-center">
-                        <ul class="d-flex justify-content-center justify-content-evenly w-100">
-                            <li><a href="">PRESS</a></li>
-                            <li><a href="">CONTACT</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-end d-flex justify-content-between">
-                <div class="end-detail">
-                    <div class="title-end">
-                        <h6>ELITE INTERIOR DESIGN BY SUJAL AND PRINCE</h6>
-                    </div>
-                    <div class="contact d-flex flex-column">
-                        <a href="">XYZ, Surat, India, 395004</a>
-                        <a href="">Phone: +91 78628 72304</a>
-                        <span>The Gallery is open from Monday to Saturday, from 11am to 7pm (prince@interior.com)</span>
-                        <span>The Office is open from Monday to Friday, from 9.30 am to 7pm (sujal@interior.com)</span>
-                    </div>
-                </div>
-                <div class="end d-flex">
-                    <div class="social d-flex justify-content-end">
-                        <div class="app d-flex justify-content-end">
-                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
-                            <a href=""><i class="fa-brands fa-facebook"></i></a>
-                            <a href=""><i class="fa-brands fa-instagram"></i></a>
-                            <a href=""><i class="fa-brands fa-pinterest"></i></a>
-                            <a href=""><i class="fa-brands fa-square-youtube"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="copyright d-flex justify-content-end">
-                <div class="copy-end d-flex">
-                    <span>©</span>
-                    <p>2024</p>
-                    <a href="">Terms and Services</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="end-border"></div>
-    <!-- footer end -->
-
-
-
-
-
-    <script src="../../js/bootstrap.bundle.js"></script>
-</body>
 
 </html>
