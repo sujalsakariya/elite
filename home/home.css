@@ -699,6 +699,10 @@ button:focus {
     margin-left: 15px;
 }
 
+.nav-left ul {
+    padding-left: 0 !important;
+}
+
 /* navbar end*/
 .heading-name {
     width: 100%;

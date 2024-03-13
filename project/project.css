@@ -71,7 +71,8 @@
     height: 100px;
     position: fixed;
     top: 0px;
-    background-color: rgba(0, 0, 0, 0.756);
+    background-color: rgba(255, 255, 255, 0.756) !important;
+    z-index: 1;
 }
 
 .nav-left {
@@ -100,7 +101,7 @@
 
 .nav-left li a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-weight: bold;
     font-size: 14px;
     font-family: "Inter", sans-serif;
@@ -290,18 +291,18 @@
 }
 
 .app ul li a {
-    width: 25px;
-    height: 25px;
-    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    background-color: #fafafac8;
     text-align: center;
-    line-height: 28px;
+    line-height: 32px;
     font-size: 10px;
     margin: 0 10px;
     display: block;
     border-radius: 50%;
     position: relative;
     overflow: hidden;
-    border: 1px solid #fff;
+    border: 1px solid #cacacab9;
     z-index: 1;
 }
 
@@ -389,7 +390,7 @@
 
 .w-100 .card a {
     text-decoration: none;
-    color: #999;
+    color: #ffffff;
 }
 
 .w-100 .card img {
@@ -423,19 +424,19 @@
 
 .w-35 {
     width: 35%;
-    background-color: #222;
+    background-color: #f9f9f9;
     padding: 30px;
 
 }
 
 .w-35 p {
-    color: #7A7A7A;
+    color: #010101;
     font-size: 17px;
 
 }
 
 .w-35 h2 {
-    color: #7A7A7A;
+    color: #000000;
     font-size: 35px;
     font-family: "ivymode", sans-serif;
     font-weight: 300;
@@ -473,7 +474,7 @@
     font-family: "ivymode", sans-serif;
     font-size: 60px;
     font-weight: 300;
-    color: #999;
+    color: #000000;
 }
 
 .contact-us {
@@ -483,7 +484,7 @@
 
 .contact-us a {
     background-color: #222;
-    color: #333 !important;
+    color: #0c0c0c !important;
     padding: 5px 80px;
     border-radius: 5px;
 }
@@ -495,7 +496,11 @@
 
 .contact-detail {
     margin-top: 70px;
-    color: #999;
+    color: #000000;
+}
+
+.contact-us a {
+    color: white !important;
 }
 
 /*  contact end */
@@ -504,7 +509,7 @@
 /* footer start */
 .footer {
     padding: 50px 0 20px 0;
-    background-color: #222 !important;
+    background-color: #f9f9f9 !important;
 }
 
 .footer-bar {
@@ -530,7 +535,7 @@
 }
 
 .footer-bar a {
-    color: #999 !important;
+    color: #000000 !important;
     text-decoration: none !important;
     font-family: "Inter", sans-serif;
     font-weight: 500;
@@ -565,12 +570,12 @@
 
 .contact a {
     text-decoration: none;
-    color: #999 !important;
+    color: #ffffff !important;
 }
 
 .contact span {
     text-decoration: none;
-    color: #999 !important;
+    color: #000000 !important;
 }
 
 .contact a:hover {
