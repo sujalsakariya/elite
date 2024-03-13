@@ -578,7 +578,7 @@ button:focus {
 }
 
 .app ul li a:hover .icon {
-    color: #fff;
+    color: #fff !important;
     transform: rotateY(360deg);
 }
 
@@ -908,7 +908,7 @@ button:focus {
 
 /* gallrey */
 .gallrey {
-    background-image: url(img/101.jpg);
+    background-image: url(../home/img/6.jpg);
     background-size: cover;
     background-position: center center;
 
