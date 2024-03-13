@@ -542,6 +542,12 @@
     color: #999;
 }
 
+.contact-btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
 /*  contact end */
 
 

@@ -535,6 +535,12 @@ button:focus {
     background-color: transparent;
     display: flex;
     justify-content: center;
+    border: none;
+    border-bottom: 1px solid;
+}
+
+.modal-content input:focus-visible {
+    border: none;
 }
 
 /* social icon */
@@ -814,7 +820,6 @@ button:focus {
     position: relative;
     overflow: hidden;
     cursor: pointer;
-    margin-left: 70px
 }
 
 #button-2 a {
@@ -1148,8 +1153,11 @@ button:focus {
     color: #999;
 }
 
-.contact .button {
-    margin-left: 50px;
+.contact-btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /*  contact end */
