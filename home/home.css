@@ -965,7 +965,7 @@ button:focus {
 .gallrey .btn a {
     display: flex;
     justify-content: center;
-    background-color: #999;
+    background-color: #863030;
     font-size: 14px;
     margin-top: 35px;
     padding: 10px 50px;
@@ -1274,7 +1274,7 @@ button:focus {
     height: 40px;
     width: 150px;
     margin: 20px 20px 20px 20px;
-    color: #BFC0C0;
+    color: #acacac;
     text-transform: uppercase;
     text-decoration: none;
     font-size: .8em;

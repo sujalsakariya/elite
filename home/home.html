@@ -35,6 +35,8 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap" rel="stylesheet">
   <link data-require="fontawesome@5.5.0" data-semver="5.5.0" rel="stylesheet"
     href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" />
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -274,10 +276,10 @@
   <div class="container-fluid bg-aa">
     <div class="container d-flex flex-column">
       <div class="designer d-flex">
-        <div class="w-40 ">
+        <div class="w-40 " data-aos="fade-right">
           <img src="../img/designer1.png" class="card-img-top" alt="...">
         </div>
-        <div class="w-60">
+        <div class="w-60" data-aos="fade-down">
           <h2>THE <p>DESIGNER</p>
             <p class="sen">Stephanie Coutas</p>
           </h2>
@@ -301,7 +303,7 @@
   <div class="container-fluid bg-pro">
     <div class="container d-flex flex-column">
       <div class="project d-flex mar">
-        <div class="w-30 d-flex">
+        <div class="w-30 d-flex" data-aos="fade-left">
           <span class="tracking-in-expand-fwd">E-SHOP</span>
           <p>What we do</p>
           <div class="see">
@@ -311,7 +313,7 @@
             </div>
           </div>
         </div>
-        <div class="w-70">
+        <div class="w-70" data-aos="fade-right">
           <div class="new-k">
             <ul class="newul">
               <li class="newli"><img src="../img/slider1.jpg" alt=""></li>
@@ -337,16 +339,16 @@
     <div class="bg-z">
       <div class="gallrey-main container-fluid container ">
         <div
-          class="gallrey-title d-flex flex-column justify-content-center flex-start align-items-center align-content-center">
-          <p>THE GALLERY</p>
-          <span>in Paris</span>
-          <div class="gallery-p d-flex justify-content-center">
+          class="gallrey-title d-flex flex-column justify-content-center flex-start align-items-center align-content-center" >
+          <p data-aos="fade-down">THE GALLERY</p>
+          <span data-aos="fade-left">in Paris</span>
+          <div class="gallery-p d-flex justify-content-center" data-aos="fade-down">
             <p>The Stephanie Coutas
               gallery has been designed as a luxurious setting to showcase our most beautiful
               editions
               surrounded by a selection of cutting-edge works in the heart of the Parisian Golden Triangle.</p>
           </div>
-          <div class="button" id="button-2">
+          <div class="button" id="button-2" data-aos="fade-down">
             <div id="slide"></div>
             <a href="../GALLERY/gallery.html">View Gallery</a>
           </div>
@@ -358,10 +360,10 @@
   <!-- contact start -->
   <div class="contact container-fluid d-flex flex-column">
     <div class="question container d-flex">
-      <h1 class="d-flex">HOW CAN WE HELP YOU?</h1>
+      <h1 class="d-flex" data-aos="fade-down">HOW CAN WE HELP YOU?</h1>
     </div>
     <div class="contact-btn">
-      <div class="button" id="button-2">
+      <div class="button" id="button-2" data-aos="fade-top">
         <div id="slide"></div>
         <a href="../contact-page/contact.html">Contact Us</a>
       </div>
@@ -445,6 +447,8 @@
   <script src="../js/anim.js"></script>
   <script src="card.js"></script>
   <script src="new.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../js/anim.js"></script>
 </body>
 
 </html>
