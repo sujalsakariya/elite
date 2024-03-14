@@ -131,6 +131,7 @@ button:focus {
 .cardList__btn .icon {
     width: 100%;
     height: 100%;
+    color: #000;
 }
 
 .cardList__btn .icon svg {
@@ -192,16 +193,22 @@ button:focus {
     --card-rotation-offset: var(--current-card-rotation-offset);
     --card-scale-offset: 1.2;
     --opacity: 0.8;
+    border: none;
+    box-shadow: 0 0 11px;
 }
 
 .card.previous--card {
     --card-translateX-offset: calc(-1 * var(--card-width) * 1.1);
     --card-rotation-offset: 25deg;
+    border: none;
+    box-shadow: 0 0 11px;
 }
 
 .card.next--card {
     --card-translateX-offset: calc(var(--card-width) * 1.1);
     --card-rotation-offset: -25deg;
+    border: none;
+    box-shadow: 0 0 11px;
 }
 
 .card.previous--card,
@@ -240,7 +247,7 @@ button:focus {
     font-family: "ivymode", sans-serif;
     font-size: calc(var(--card-width) * var(--text-size-offset, 0.2));
     white-space: nowrap;
-    color: #000000d2;
+    color: #f8f1e7;
     width: fit-content;
 }
 
@@ -1245,13 +1252,11 @@ button:focus {
     text-decoration: none;
     font-size: 2rem;
     padding: 5px 3px;
-    background: white;
+    background: rgba(255, 255, 255, 0);
     text-align: center;
     transform: translateY(-50%);
     transition: all 0.15s ease;
-    border: 1px solid #ddd;
     border-radius: 0 3px 3px 0;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
 #next {
@@ -1262,4 +1267,45 @@ button:focus {
 #prev:hover,
 #next:hover {
     color: #888;
+}
+
+.gallrey .button {
+    display: inline-flex;
+    height: 40px;
+    width: 150px;
+    margin: 20px 20px 20px 20px;
+    color: #BFC0C0;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: .8em;
+    letter-spacing: 1.5px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.gallrey .button a {
+    color: #1e1e1e;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.gallrey #slide {
+    width: 100%;
+    height: 100%;
+    left: -200px;
+    background: #272727;
+    position: absolute;
+    transition: all .35s ease-Out;
+    bottom: 0;
+}
+
+.gallrey #button-2:hover a {
+    color: #ffffff;
+}
+
+.see {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }

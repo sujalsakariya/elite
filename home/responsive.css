@@ -152,6 +152,10 @@
     .project .w-30 {
         width: 100%;
     }
+
+    .none-a {
+        display: none !important;
+    }
 }
 
 @media (max-width: 992px) {
@@ -321,6 +325,9 @@
         width: 100%;
     }
 
+    .social {
+        display: none;
+    }
 }
 
 @media (min-width: 769px) and (max-width: 960px) {
@@ -431,6 +438,10 @@
 
     .project .w-30 {
         width: 100%;
+    }
+
+    .social {
+        display: none !important;
     }
 }
 
@@ -580,6 +591,10 @@
 
     .project .w-30 {
         width: 100%;
+    }
+
+    .offcanvas-body ul li {
+        display: block;
     }
 }
 

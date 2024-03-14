@@ -14,7 +14,7 @@
 /* home-top */
 .home-main {
     width: 100%;
-    background: url(img/nav\ \(16\).jpg);
+    background: url(../home/img/101.jpg);
     background-position: center center;
     background-size: cover;
     height: 650px;
@@ -184,7 +184,7 @@
 .app ul {
     display: flex;
     position: absolute;
-    top: 50%;
+    top: 18px;
     transform: translate(-50%, -50%);
 }
 
@@ -216,7 +216,7 @@
 }
 
 .app ul li a:hover .icon {
-    color: #fff;
+    color: #fff !important;
     transform: rotateY(360deg);
 }
 
@@ -388,13 +388,11 @@ h2 {
 
 .cart-button-style {
     border-style: none;
-    position: fixed;
-    top: 100px;
+    top: 0px;
     right: 0;
-    width: 10em;
-    padding: 1em 1em;
+    /* width: 10em; */
+    /* padding: 1em 1em; */
     margin: 0.5em;
-    background: #7762ff;
     color: white;
     transition: background .5s;
     border-radius: 4px;
@@ -405,11 +403,10 @@ h2 {
     position: fixed;
     top: 0;
     right: 0;
-    width: 10em;
-    padding: 1em 1em;
+    /* width: 10em; */
+    /* padding: 1em 1em; */
     margin: 0.5em;
     background: white;
-    color: #7762ff;
     transition: background .5s;
     border-radius: 4px;
 }
