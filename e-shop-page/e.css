@@ -393,7 +393,6 @@ h2 {
     /* width: 10em; */
     /* padding: 1em 1em; */
     margin: 0.5em;
-    color: white;
     transition: background .5s;
     border-radius: 4px;
 }
@@ -406,7 +405,6 @@ h2 {
     /* width: 10em; */
     /* padding: 1em 1em; */
     margin: 0.5em;
-    background: white;
     transition: background .5s;
     border-radius: 4px;
 }
@@ -415,7 +413,6 @@ h2 {
 #checkout:hover,
 #apply-promo:hover,
 .keep-shopping:hover {
-    background: #62ff8e;
     color: white;
 }
 

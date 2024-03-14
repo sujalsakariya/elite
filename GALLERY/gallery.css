@@ -5,7 +5,6 @@
     text-decoration: none;
     box-sizing: border-box;
     transition: 0.3s;
-
 }
 
 
@@ -15,6 +14,10 @@ a {
 }
 
 /* gallery start */
+.bg-new {
+    background-color: white !important;
+}
+
 .gallery {
     padding: 20px 0;
     width: 100% !important;
@@ -31,8 +34,8 @@ a {
     width: 500px;
     height: 400px;
     overflow: hidden;
-    background-color: #222;
-    box-shadow: 0 0 10px 2px #242424;
+    background-color: rgb(49, 49, 49);
+    box-shadow: 0 0 8px #242424;
 }
 
 .w-50 .card img {
@@ -186,7 +189,7 @@ a {
 
 .social i {
     font-size: 18px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     transition: 0.3s;
 }
 
@@ -218,7 +221,7 @@ a {
     padding: 0;
     position: fixed;
     top: 0px;
-    background-color: rgba(0, 0, 0, 0.756);
+    background-color: rgba(255, 255, 255, 0.756);
     height: 100px;
     z-index: 1;
 }
@@ -249,7 +252,7 @@ a {
 
 .nav-left li a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-weight: bold;
     font-size: 14px;
     font-family: "Inter", sans-serif;
@@ -408,7 +411,7 @@ a {
 
 .nav-right li i {
     font-size: 18px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     transition: 0.5s;
 }
 
@@ -451,7 +454,7 @@ a {
 /* footer start */
 .footer {
     padding: 50px 0 20px 0;
-    background-color: #222;
+    background-color: #f9f9f9;
 }
 
 .footer-bar {
