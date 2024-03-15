@@ -392,7 +392,9 @@ a {
     overflow: hidden;
     box-sizing: border-box;
 }
-
+.card {
+    border: 0 !important;
+}
 /* slide menu end*/
 .contact .mx-auto h2 {
     font-family: "ivymode", sans-serif;
