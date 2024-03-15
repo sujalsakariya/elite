@@ -341,6 +341,10 @@
     padding-left: 0 !important;
 }
 
+.first-child {
+    border-bottom: 0.1em solid #C19A5B;
+}
+
 /* navbar end*/
 .heading-name {
     width: 100%;
