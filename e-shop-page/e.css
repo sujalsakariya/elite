@@ -14,10 +14,10 @@
 /* home-top */
 .home-main {
     width: 100%;
-    background: url(../home/img/101.jpg);
     background-position: center center;
     background-size: cover;
-    height: 650px;
+    height: auto;
+    position: relative;
 }
 
 /* social - start*/
@@ -346,16 +346,22 @@
 }
 
 /* navbar end*/
+.all-main {
+    position: absolute;
+    top: 0;
+    height: 650px;
+    width: 100%;
+}
+
 .heading-name {
     width: 100%;
-    height: 400px;
-    margin-top: 0px !important;
-    padding-top: 100px !important;
+    margin-top: 200px;
 }
 
 .heading-name h2 {
     font-size: 78px;
     font-family: "ivymode", sans-serif;
+    color: white !important;
     margin-bottom: 0;
 }
 
@@ -364,6 +370,7 @@
     font-size: 45px;
     text-align: center;
     font-weight: 100;
+    color: white !important;
     box-sizing: border-box;
     margin: 0 85px;
 }

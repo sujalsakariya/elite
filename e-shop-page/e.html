@@ -18,131 +18,142 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.6.0/css/all.min.css">
     <link rel="stylesheet" href="../css/all.min.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="../css/uikit.min.css">
 
 </head>
 
 <body>
     <!-- home-head -->
     <div class="home-main">
-
+        <video id="banner_auto_play" muted="" autoplay="" playsinline="" preload="auto" loop="">
+            <source type="video/mp4" src="pexels-cottonbro-6114642 (2160p).mp4">
+        </video>
         <!-- navbar -->
-        <div class="navbar d-flex flex-row justify-content-center">
-            <div class="nav-left">
-                <ul class="d-flex flex-row justify-content-evenly">
-                    <div class="nav-img">
-                        <a href="http://127.0.0.1:5501/home/home.html" class=""><img
-                                src="../home/img/logo1-removebg-preview__1_-removebg-preview.png" alt=""></a>
-                    </div>
-                    <li><a href="../home/home.html" class="ul-a d-flex align-items-center">HOME</i></a></li>
-                    <li><a href="../GALLERY/gallery.html" class="ul-a d-flex align-items-center">THE GALLERY</i></a>
-                    </li>
-                    <li><a href="../project/project.html" class="ul-a d-flex align-items-center">PROJECTS</i></a></li>
-                    <li><a href="../Designer/designer.html" class="ul-a d-flex align-items-center">THE DESIGNER</i></a>
-                    </li>
-                    <li><a href="../e-shop-page/e.html" class="ul-a d-flex align-items-center first-child">E-SHOP</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- new -->
-            <div class="nav-right d-flex flex-row-reverse">
-                <div class="social d-flex">
-                    <div class="app d-flex justify-content-end">
-                        <ul>
-                            <li>
-                                <a href="https://www.facebook.com/campaign/landing.php?campaign_id=15184823432&extra_1=s%7Cc%7C589521724499%7Cb%7Cfacebook%20log%20in%7C&placement=&creative=589521724499&keyword=facebook%20log%20in&partner_id=googlesem&extra_2=campaignid%3D15184823432%26adgroupid%3D129532684556%26matchtype%3Db%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-1409266755%26loc_physical_ms%3D9062194%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gad_source=1&gclid=Cj0KCQjwncWvBhD_ARIsAEb2HW-5q_TmJYLmEoTJe2fSE1Mvx3aW2PCE2QrV9FlYKYjG-WPSVvPJLBMaAmh7EALw_wcB"
-                                    target="_blank">
-                                    <i class="fab fa-facebook-f icon"></i> </a>
-                            </li>
-                            <li>
-                                <a href="https://twitter.com/i/flow/login" target="_blank"><i
-                                        class="fab fa-twitter icon"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/feed/" target="_blank"><i
-                                        class="fab fa-linkedin-in icon"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://myaccount.google.com/?utm_source=sign_in_no_continue&pli=1"
-                                    target="_blank"><i class="fab fa-google-plus-g icon"></i></a>
-                            </li>
-                        </ul>
-                    </div>
+        <div class="all-main">
+            <div class="navbar d-flex flex-row justify-content-center">
+                <div class="nav-left">
+                    <ul class="d-flex flex-row justify-content-evenly">
+                        <div class="nav-img">
+                            <a href="http://127.0.0.1:5501/home/home.html" class=""><img
+                                    src="../home/img/logo1-removebg-preview__1_-removebg-preview.png" alt=""></a>
+                        </div>
+                        <li><a href="../home/home.html" class="ul-a d-flex align-items-center">HOME</i></a></li>
+                        <li><a href="../GALLERY/gallery.html" class="ul-a d-flex align-items-center">THE GALLERY</i></a>
+                        </li>
+                        <li><a href="../project/project.html" class="ul-a d-flex align-items-center">PROJECTS</i></a>
+                        </li>
+                        <li><a href="../Designer/designer.html" class="ul-a d-flex align-items-center">THE
+                                DESIGNER</i></a>
+                        </li>
+                        <li><a href="../e-shop-page/e.html"
+                                class="ul-a d-flex align-items-center first-child">E-SHOP</a>
+                        </li>
+                    </ul>
                 </div>
-                <ul class="nav nav-tabs justify-content-center align-items-center">
-                    <li class="nav-item d-flex">
-
-                        <!-- Button trigger modal -->
-                        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                            <i class="fa-solid fa-magnifying-glass none"></i>
-                        </button>
-
-                        <!-- Modal -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                            aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <input type="search" placeholder="Search..." class="modal-header">
-                                </div>
-                            </div>
+                <!-- new -->
+                <div class="nav-right d-flex flex-row-reverse">
+                    <div class="social d-flex">
+                        <div class="app d-flex justify-content-end">
+                            <ul>
+                                <li>
+                                    <a href="https://www.facebook.com/campaign/landing.php?campaign_id=15184823432&extra_1=s%7Cc%7C589521724499%7Cb%7Cfacebook%20log%20in%7C&placement=&creative=589521724499&keyword=facebook%20log%20in&partner_id=googlesem&extra_2=campaignid%3D15184823432%26adgroupid%3D129532684556%26matchtype%3Db%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-1409266755%26loc_physical_ms%3D9062194%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gad_source=1&gclid=Cj0KCQjwncWvBhD_ARIsAEb2HW-5q_TmJYLmEoTJe2fSE1Mvx3aW2PCE2QrV9FlYKYjG-WPSVvPJLBMaAmh7EALw_wcB"
+                                        target="_blank">
+                                        <i class="fab fa-facebook-f icon"></i> </a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/i/flow/login" target="_blank"><i
+                                            class="fab fa-twitter icon"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/feed/" target="_blank"><i
+                                            class="fab fa-linkedin-in icon"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://myaccount.google.com/?utm_source=sign_in_no_continue&pli=1"
+                                        target="_blank"><i class="fab fa-google-plus-g icon"></i></a>
+                                </li>
+                            </ul>
                         </div>
+                    </div>
+                    <ul class="nav nav-tabs justify-content-center align-items-center">
+                        <li class="nav-item d-flex">
 
-                        <a href="http://127.0.0.1:5501/login-page/log.html"><i class="fa-regular fa-user none"></i></a>
-                        <button id='cart-button' class="trigger cart-button-style"><i
-                                class="fa-solid fa-bag-shopping none"></i></button>
-                    </li>
-                    <li class="nav-item dropdown none-a nav-link" data-bs-toggle="" href="" role="button"
-                        aria-expanded="false">
-                        <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
-                            aria-controls="offcanvasExample">
-                            <i class="fa-solid fa-bars"></i>
-                        </button>
-                        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
-                            aria-labelledby="offcanvasExampleLabel">
-                            <div class="btn-main d-flex">
-                                <div class="nav-img">
-                                    <a href="http://127.0.0.1:5501/contact-page/contact.html" class=""><img
-                                            src="../home/img/logo1-removebg-preview__1_-removebg-preview.png"
-                                            alt=""></a>
-                                </div>
-                                <div class="offcanvas-header">
-                                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
-                                        aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                <i class="fa-solid fa-magnifying-glass none"></i>
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <input type="search" placeholder="Search..." class="modal-header">
+                                    </div>
                                 </div>
                             </div>
-                            <div class="offcanvas-body">
-                                <ul>
-                                    <li><a href="">HOME</a></li>
-                                    <hr>
-                                    <li><a href="">THE GALLERY</a></li>
-                                    <hr>
-                                    <li><a href="">PROJECTS</a></li>
-                                    <hr>
-                                    <li><a href="">THE DESIGNER</a></li>
-                                    <hr>
-                                    <li><a href="">E-SHOP</a></li>
-                                </ul>
+
+                            <a href="http://127.0.0.1:5501/login-page/log.html"><i
+                                    class="fa-regular fa-user none"></i></a>
+                            <button id='cart-button' class="trigger cart-button-style"><i
+                                    class="fa-solid fa-bag-shopping none"></i></button>
+                        </li>
+                        <li class="nav-item dropdown none-a nav-link" data-bs-toggle="" href="" role="button"
+                            aria-expanded="false">
+                            <button class="btn" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                                <i class="fa-solid fa-bars"></i>
+                            </button>
+                            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                                aria-labelledby="offcanvasExampleLabel">
+                                <div class="btn-main d-flex">
+                                    <div class="nav-img">
+                                        <a href="http://127.0.0.1:5501/contact-page/contact.html" class=""><img
+                                                src="../home/img/logo1-removebg-preview__1_-removebg-preview.png"
+                                                alt=""></a>
+                                    </div>
+                                    <div class="offcanvas-header">
+                                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                            aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+                                    </div>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <ul>
+                                        <li><a href="">HOME</a></li>
+                                        <hr>
+                                        <li><a href="">THE GALLERY</a></li>
+                                        <hr>
+                                        <li><a href="">PROJECTS</a></li>
+                                        <hr>
+                                        <li><a href="">THE DESIGNER</a></li>
+                                        <hr>
+                                        <li><a href="">E-SHOP</a></li>
+                                    </ul>
+                                </div>
+                                <div class="app d-flex justify-content-end">
+                                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                    <a href=""><i class="fa-brands fa-pinterest"></i></a>
+                                    <a href=""><i class="fa-brands fa-square-youtube"></i></a>
+                                </div>
                             </div>
-                            <div class="app d-flex justify-content-end">
-                                <a href=""><i class="fa-brands fa-linkedin"></i></a>
-                                <a href=""><i class="fa-brands fa-facebook"></i></a>
-                                <a href=""><i class="fa-brands fa-instagram"></i></a>
-                                <a href=""><i class="fa-brands fa-pinterest"></i></a>
-                                <a href=""><i class="fa-brands fa-square-youtube"></i></a>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!-- new end -->
+
             </div>
-            <!-- new end -->
-
-        </div>
-        <div
-            class="heading-name d-flex flex-column justify-content-center align-items-center align-content-center container">
-            <h2 data-aos="fade-down">E-SHOP</h2>
-            <div class="head-h1 d-flex">
-                <h1 class="d-flex align-content-center align-items-center justify-content-center" data-aos="fade-up">
-                    INTERIOR DESIGN STUDIO & ART
-                    GALLERY</h1>
+            <div
+                class="heading-name d-flex flex-column justify-content-center align-items-center align-content-center container">
+                <h2 data-aos="fade-down">E-SHOP</h2>
+                <div class="head-h1 d-flex">
+                    <h1 class="d-flex align-content-center align-items-center justify-content-center"
+                        data-aos="fade-up">
+                        INTERIOR DESIGN STUDIO & ART
+                        GALLERY</h1>
+                </div>
             </div>
         </div>
     </div>
