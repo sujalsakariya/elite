@@ -440,6 +440,7 @@ h2 {
     width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    height: 300px;
 }
 
 @media screen and (max-width: 980px) {
@@ -501,7 +502,7 @@ h2 {
     position: fixed;
     width: 100vw;
     height: 100vh;
-    top: 0;
+    top: 100px;
     overflow: hidden;
     background: white;
     transition: all 1s;
@@ -520,7 +521,7 @@ h2 {
 
 #cart-amount-wrapper {
     background: white;
-    padding: 1.5% 0 .5% 35%;
+    padding: 1.5% 0 .5% 20%;
     border-radius: 10px;
 }
 
@@ -635,4 +636,5 @@ h2 {
     color: white;
     transition: background .5s;
     border-radius: 4px;
+    margin: 10px 20px;
 }
