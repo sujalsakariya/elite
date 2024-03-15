@@ -628,6 +628,15 @@ button:focus {
     box-shadow: none !important;
 }
 
+.offcanvas-body {
+    height: 300px;
+}
+
+.offcanvas {
+    height: 500px;
+    background-color: white !important;
+}
+
 .nav-right .nav-link:hover {
     border-color: transparent !important;
 }
