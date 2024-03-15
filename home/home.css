@@ -383,10 +383,17 @@ button:focus {
 /* home-top */
 .home-main {
     width: 100%;
-    background: url(img/nav\ \(16\).jpg);
     background-position: center center;
     background-size: cover;
+    height: auto;
+    position: relative;
+}
+
+.all-main {
+    position: absolute;
+    top: 0;
     height: 650px;
+    width: 100%;
 }
 
 /* social - start*/
@@ -722,9 +729,7 @@ button:focus {
 /* navbar end*/
 .heading-name {
     width: 100%;
-    height: 400px;
-    margin-top: 0px !important;
-    padding-top: 100px !important;
+    margin-top: 200px;
 }
 
 .heading-name h2 {
@@ -1284,7 +1289,7 @@ button:focus {
     height: 40px;
     width: 150px;
     margin: 20px 20px 20px 20px;
-    color: #acacac;
+    color: #4d4d4d;
     text-transform: uppercase;
     text-decoration: none;
     font-size: .8em;
@@ -1292,6 +1297,7 @@ button:focus {
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    border: 2px solid #242424;
 }
 
 .gallrey .button a {
