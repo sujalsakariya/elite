@@ -15,12 +15,12 @@
     background-position: center center;
     background-size: cover;
     height: 650px;
-    background-color: #222222b5;
+
 
 }
 
 .bg-z {
-    background-color: #22222286;
+
     height: 650px;
 }
 
@@ -38,7 +38,7 @@
 
 .social i {
     font-size: 18px;
-    color: #999;
+    color: #ffffff;
     transition: 0.3s;
 }
 
@@ -55,7 +55,7 @@
 }
 
 .language a {
-    color: #999;
+    color: #ffffff;
     font-family: "Inter", sans-serif;
     text-decoration: none;
     font-size: 14px;
@@ -234,7 +234,7 @@
     height: 400px;
     margin-top: 0px !important;
     padding-top: 100px !important;
-    color: rgb(207, 207, 207);
+    color: rgb(255, 255, 255);
 }
 
 .heading-name h2 {
