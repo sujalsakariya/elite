@@ -559,7 +559,7 @@ a {
 }
 
 .footer-bar a {
-    color: #999;
+    color: #000000;
     text-decoration: none;
     font-family: "Inter", sans-serif;
     font-weight: 500;
@@ -594,12 +594,12 @@ a {
 
 .contact a {
     text-decoration: none;
-    color: #999;
+    color: #040404;
 }
 
 .contact span {
     text-decoration: none;
-    color: #999;
+    color: #010101;
 }
 
 .contact a:hover {
