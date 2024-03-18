@@ -4,7 +4,10 @@
     .home-main {
         width: 100%;
     }
-
+    .heading-name h1 {
+        margin: 0px;
+        font-size: 30px !important;
+    }
     /*  PROJECTS  start */
     .project {
         margin: 0 70px;
@@ -33,7 +36,10 @@
 }
 
 @media (min-width: 993px) and (max-width: 1200px) {
-
+    .heading-name h1 {
+        margin: 0px;
+        font-size: 30px;
+    }
     /* home-top */
     .navbar {
         width: 100% !important;
@@ -183,7 +189,10 @@
     }
 
     /* home-top end*/
-
+    .heading-name h1 {
+        margin: 0px;
+        font-size: 30px;
+    }
     /* home-top end*/
 
 
@@ -674,6 +683,11 @@
     .project .w-30 {
         width: 100%;
     }
+    .heading-name {
+        width: 100%;
+        margin-top: 100px !important;
+        height: 150px !important;
+    }
 }
 
 @media (max-width: 576px) {
@@ -698,7 +712,11 @@
         width: 40%;
         margin-top: 0px;
     }
-
+    .heading-name {
+        width: 100%;
+        margin-top: 100px !important;
+        height: 100px !important;
+    }
     /* Designer  start */
 
     /* Designer  end */
@@ -729,6 +747,10 @@
 
     .project .w-30 {
         width: 100%;
+    }
+    .heading-name h1 {
+        margin: 0px;
+        font-size: 20px;
     }
 }
 
@@ -789,13 +811,20 @@
     .slider-bg {
         width: 100%;
     }
+    .heading-name h1 {
+        margin: 0px;
+        font-size: 14px !important; 
+    }
 }
 
 @media (min-width: 280px) and (max-width:375px) {
     .bg-pro {
         width: 100%;
     }
-
+    .heading-name h1 {
+        margin: 0px;
+        font-size: 14px !important;
+    }
     .home-main .navbar {
         width: 100%;
     }
@@ -860,5 +889,32 @@
 
     .w-70 .card .card-title {
         font-size: 13px;
+    }
+    .heading-name {
+        width: 100%;
+        margin-top: 50px !important;
+        height: 50px !important;
+    }
+    .home-main .navbar {
+        height: auto;
+        padding: 0px 0;
+    }
+    .nav-img img {
+        width: 50%;
+    }
+    .nav-left {
+        
+        padding-left: 10px;
+    }
+    .w-30 span {
+       
+        font-size: 18px;
+    }
+    .w-30 p {
+        font-size: 20px;
+    }
+
+    .w-30 p {
+        margin-top: -10px;
     }
 }

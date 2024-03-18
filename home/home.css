@@ -305,7 +305,10 @@ button:focus {
     opacity: 0;
     display: none;
 }
+video{
+width: 100% !important;
 
+}
 .loading__wrapper {
     position: fixed;
     left: 0;
