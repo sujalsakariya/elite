@@ -14,56 +14,92 @@ a {
 }
 
 /* gallery start */
-.bg-new {
-    background-color: white !important;
+*,
+*::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.gallery {
-    padding: 20px 0;
-    width: 100% !important;
+html {
+  scroll-behavior: auto;
+  background-color: hsl(0, 0%, 10%);
+  color: hsl(0, 0%, 90%);
+  font: normal 400 1.1rem/1.2rem "Roboto";
 }
 
-.w-50 {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.wrapper {
+  margin: 0 auto;
+  max-width: 1600px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 15rem);
+  place-content: center;
+  padding: 1rem;
+  gap: 1rem;
 }
 
-.w-50 .card {
-    width: 500px;
-    height: 400px;
-    overflow: hidden;
-    background-color: rgb(49, 49, 49);
-    box-shadow: 0 0 8px #242424;
+.card {
+  position: relative;
+  width: 15rem;
+  aspect-ratio: 1 / 1;
+  background-color: hsl(0, 0%, 90%);
+  color: hsl(0, 0%, 10%);
+  border-radius: 0.25rem;
+  overflow: hidden;
+  filter: drop-shadow(0rem 0.5rem 0.25rem black);
 }
 
-.w-50 .card img {
-    width: 500px;
-    height: 320px;
-    overflow: hidden;
+.cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-position: center;
+  object-fit: cover;
+  filter: grayscale(0);
+  transition: all 0.5s ease;
+  z-index: 100;
 }
 
-.gallery-fluid {
-    background-color: #333;
+.cover:hover {
+  filter: grayscale(1);
+  scale: 1.5;
 }
 
-.gallery-con {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.cover:hover ~ .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.card-title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 30px;
-    font-family: "ivymode", sans-serif;
-    color: #999;
+.info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 0.5rem 0rem 0.5rem 0rem;
+  display: none;
+  background-color: hsl(0, 0%, 80%);
+  transition: all 0.6s ease;
+  z-index: 200;
 }
 
+.artist {
+  font: normal 700 1.1rem/1.2rem "Roboto";
+  text-transform: uppercase;
+}
+
+.album {
+  font: normal 400 1.1rem/1.2rem "Roboto";
+}
+
+.year {
+  font: italic 500 0.8rem/0.9rem "Roboto";
+}
 
 
 
@@ -664,3 +700,5 @@ a {
 }
 
 /* footer end */
+
+
