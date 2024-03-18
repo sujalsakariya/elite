@@ -388,102 +388,62 @@ video {
 
 
 
-@media all and (min-width: 600px) {
+.gallery {
+    width: min(90vw, 550px);
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: 13vmin;
+    gap: 0.25rem;
 
-    /* Change color for backdrop */
-    .fancybox-custom-layout .fancybox-bg {
-        background: #fcfaf9;
-    }
+    & .item {
+        background-size: cover;
+        background-position: center;
 
-    .fancybox-custom-layout.fancybox-is-open .fancybox-bg {
-        opacity: 1;
-    }
+        &:nth-of-type(1) {
+            background-image: url('https://source.unsplash.com/j7AMlh2MMHc');
+        }
 
-    /* Move caption area to the right side */
-    .fancybox-custom-layout .fancybox-caption {
-        background: #f1ecec;
-        bottom: 0;
-        color: #6c6f73;
-        left: auto;
-        padding: 30px 20px;
-        right: 44px;
-        top: 0;
-        width: 256px;
-    }
+        &:nth-of-type(2) {
+            background-image: url('https://source.unsplash.com/Um9AkOiIDcU');
+        }
 
-    .fancybox-custom-layout .fancybox-caption h3 {
-        color: #444;
-        font-size: 21px;
-        line-height: 1.3;
-        margin-bottom: 24px;
-    }
+        &:nth-of-type(3) {
+            background-image: url('https://source.unsplash.com/3InMDrsuYrk');
+        }
 
-    .fancybox-custom-layout .fancybox-caption a {
-        color: #444;
-    }
+        &:nth-of-type(4) {
+            background-image: url('https://source.unsplash.com/9XngoIpxcEo');
+        }
 
-    /* Remove gradient from caption*/
-    .fancybox-custom-layout .fancybox-caption::before {
-        display: none;
-    }
+        &:nth-of-type(5) {
+            background-image: url('https://source.unsplash.com/knVn7YXfvkE');
+        }
 
-    /* Adjust content area position */
-    .fancybox-custom-layout .fancybox-stage {
-        right: 300px;
-    }
+        &:nth-of-type(6) {
+            background-image: url('https://source.unsplash.com/BzuUDHCi_vo');
+        }
 
-    /* Align buttons at the right side  */
-    .fancybox-custom-layout .fancybox-toolbar {
-        background: #3b3b45;
-        bottom: 0;
-        left: auto;
-        right: 0;
-        top: 0;
-        width: 44px;
-    }
-
-    /* Remove background from all buttons */
-    .fancybox-custom-layout .fancybox-button {
-        background: transparent;
-    }
-
-    /* Navigation arrows */
-    .fancybox-custom-layout .fancybox-navigation .fancybox-button div {
-        padding: 2px;
-    }
-
-    .fancybox-custom-layout .fancybox-navigation .fancybox-button[disabled] {
-        color: #ddd;
-    }
-
-    .fancybox-custom-layout .fancybox-navigation .fancybox-button:not([disabled]) {
-        color: #333;
-    }
-
-    /* Reposition right arrow */
-    .fancybox-custom-layout .fancybox-button--arrow_right {
-        right: 308px;
+        &:hover:not(li[data-pos="1"]) {
+            cursor: pointer;
+        }
     }
 }
 
-.header .lead {
-    max-width: 620px;
+li[data-pos='1'] {
+    grid-column: 1/6;
+    grid-row: 1/6;
 }
 
-.lg-toolbar-next:before {
-    content: "";
+::view-transition-group(*) {
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
 }
 
-.lg-toolbar-prev:before {
-    content: "";
+.new {
+    column-gap: 10px;
 }
 
-/** Below CSS is completely optional **/
-.gallery-item {
-    width: 200px;
-    padding: 5px;
-}
-
-.imglist {
-    padding: 40px;
+.new ul {
+    padding: 0;
 }

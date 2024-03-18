@@ -1,17 +1,23 @@
-$('[data-fancybox="images"]').fancybox({
-    baseClass: "fancybox-custom-layout",
-    infobar: false,
-    touch: {
-      vertical: false
-    },
-    buttons: ["close", "thumbs", "share"],
-    animationEffect: "fade",
-    transitionEffect: "fade",
-    preventCaptionOverlap: false,
-    idleTime: false,
-    gutter: 0,
-    // Customize caption area
-    caption: function(instance) {
-      return '<h3>home</h3><p>interiors, exteriors, and the humans that inhabit them.</p><p><a href="https://unsplash.com/collections/curated/162" target="_blank">unsplash.com</a></p>';
-    }
+const items = document.querySelectorAll('.item');
+
+function insertViewTransitionName() {
+  items.forEach((item, i) => {
+    item.style.viewTransitionName = `item-${i++}`;
   });
+}
+
+function animateItem(e) {
+  const hero = document.querySelector('li[data-pos="1"]');
+  const target = e.target;
+  [hero.dataset.pos, target.dataset.pos] = [target.dataset.pos, hero.dataset.pos];
+}
+
+function init(e) {
+  if (!e.target.matches('li')) return;
+  insertViewTransitionName();
+  !document.startViewTransition
+    ? animateItem(e)
+    : document.startViewTransition(() => animateItem(e));
+}
+
+window.addEventListener('click', init, false);
