@@ -531,8 +531,8 @@
 
 /* contact */
 .isolate {
-    background-image: url(img/bg.webp);
-    background-repeat: repeat;
+    background-image: url(img/bg.webp) !important;
+    background-repeat: repeat !important;
     z-index: 1;
 }
 
